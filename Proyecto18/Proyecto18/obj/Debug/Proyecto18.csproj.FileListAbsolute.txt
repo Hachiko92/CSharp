@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto18\Proyecto18\bin\Debug\Proyecto18.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto18\Proyecto18\bin\Debug\Proyecto18.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto18\Proyecto18\bin\Debug\Proyecto18.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto18\Proyecto18\obj\Debug\Proyecto18.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto18\Proyecto18\obj\Debug\Proyecto18.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto18\Proyecto18\obj\Debug\Proyecto18.pdb

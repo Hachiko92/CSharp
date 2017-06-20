@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\PrimerProyectoEjercicios\PrimerProyectoEjercicios\bin\Debug\PrimerProyectoEjercicios.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\PrimerProyectoEjercicios\PrimerProyectoEjercicios\bin\Debug\PrimerProyectoEjercicios.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\PrimerProyectoEjercicios\PrimerProyectoEjercicios\bin\Debug\PrimerProyectoEjercicios.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\PrimerProyectoEjercicios\PrimerProyectoEjercicios\obj\Debug\PrimerProyectoEjercicios.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\PrimerProyectoEjercicios\PrimerProyectoEjercicios\obj\Debug\PrimerProyectoEjercicios.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\PrimerProyectoEjercicios\PrimerProyectoEjercicios\obj\Debug\PrimerProyectoEjercicios.pdb

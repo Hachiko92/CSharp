@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto21-Base\Proyecto21-Base\bin\Debug\Proyecto21-Base.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto21-Base\Proyecto21-Base\bin\Debug\Proyecto21-Base.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto21-Base\Proyecto21-Base\bin\Debug\Proyecto21-Base.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto21-Base\Proyecto21-Base\obj\Debug\Proyecto21-Base.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto21-Base\Proyecto21-Base\obj\Debug\Proyecto21-Base.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto21-Base\Proyecto21-Base\obj\Debug\Proyecto21-Base.pdb

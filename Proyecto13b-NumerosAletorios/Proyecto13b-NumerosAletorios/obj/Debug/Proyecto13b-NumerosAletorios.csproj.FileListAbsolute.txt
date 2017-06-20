@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto13b-NumerosAletorios\Proyecto13b-NumerosAletorios\bin\Debug\Proyecto13b-NumerosAletorios.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto13b-NumerosAletorios\Proyecto13b-NumerosAletorios\obj\Debug\Proyecto13b-NumerosAletorios.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto13b-NumerosAletorios\Proyecto13b-NumerosAletorios\bin\Debug\Proyecto13b-NumerosAletorios.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto13b-NumerosAletorios\Proyecto13b-NumerosAletorios\bin\Debug\Proyecto13b-NumerosAletorios.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto13b-NumerosAletorios\Proyecto13b-NumerosAletorios\obj\Debug\Proyecto13b-NumerosAletorios.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto13b-NumerosAletorios\Proyecto13b-NumerosAletorios\obj\Debug\Proyecto13b-NumerosAletorios.pdb

@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto11-Split\Proyecto11-Split\bin\Debug\Proyecto11-Split.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto11-Split\Proyecto11-Split\bin\Debug\Proyecto11-Split.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto11-Split\Proyecto11-Split\bin\Debug\Proyecto11-Split.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto11-Split\Proyecto11-Split\obj\Debug\Proyecto11-Split.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto11-Split\Proyecto11-Split\obj\Debug\Proyecto11-Split.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto11-Split\Proyecto11-Split\obj\Debug\Proyecto11-Split.csprojResolveAssemblyReference.cache

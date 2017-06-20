@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\primerProyectoC\primerProyectoC\bin\Debug\primerProyectoC.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\primerProyectoC\primerProyectoC\bin\Debug\primerProyectoC.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\primerProyectoC\primerProyectoC\bin\Debug\primerProyectoC.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\primerProyectoC\primerProyectoC\obj\Debug\primerProyectoC.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\primerProyectoC\primerProyectoC\obj\Debug\primerProyectoC.pdb

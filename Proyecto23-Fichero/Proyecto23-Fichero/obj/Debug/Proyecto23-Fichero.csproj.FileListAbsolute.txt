@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\bin\Debug\Proyecto23-Fichero.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\bin\Debug\Proyecto23-Fichero.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\bin\Debug\Proyecto23-Fichero.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\obj\Debug\Proyecto23-Fichero.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\obj\Debug\Proyecto23-Fichero.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\obj\Debug\Proyecto23-Fichero.csprojResolveAssemblyReference.cache

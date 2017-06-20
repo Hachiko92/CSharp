@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto03-Switch\Proyecto03-Switch\bin\Debug\Proyecto03-Switch.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto03-Switch\Proyecto03-Switch\bin\Debug\Proyecto03-Switch.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto03-Switch\Proyecto03-Switch\bin\Debug\Proyecto03-Switch.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto03-Switch\Proyecto03-Switch\obj\Debug\Proyecto03-Switch.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto03-Switch\Proyecto03-Switch\obj\Debug\Proyecto03-Switch.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto03-Switch\Proyecto03-Switch\obj\Debug\Proyecto03-Switch.pdb

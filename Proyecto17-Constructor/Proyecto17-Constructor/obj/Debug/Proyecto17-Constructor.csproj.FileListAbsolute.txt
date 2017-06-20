@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto17-Constructor\Proyecto17-Constructor\bin\Debug\Proyecto17-Constructor.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto17-Constructor\Proyecto17-Constructor\bin\Debug\Proyecto17-Constructor.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto17-Constructor\Proyecto17-Constructor\bin\Debug\Proyecto17-Constructor.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto17-Constructor\Proyecto17-Constructor\obj\Debug\Proyecto17-Constructor.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto17-Constructor\Proyecto17-Constructor\obj\Debug\Proyecto17-Constructor.pdb

@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\bin\Release\Proyecto23-Fichero.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\bin\Release\Proyecto23-Fichero.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\bin\Release\Proyecto23-Fichero.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\obj\Release\Proyecto23-Fichero.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto23-Fichero\Proyecto23-Fichero\obj\Release\Proyecto23-Fichero.pdb

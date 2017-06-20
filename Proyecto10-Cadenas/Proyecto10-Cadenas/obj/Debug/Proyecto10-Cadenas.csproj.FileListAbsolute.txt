@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto10-Cadenas\Proyecto10-Cadenas\bin\Debug\Proyecto10-Cadenas.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto10-Cadenas\Proyecto10-Cadenas\bin\Debug\Proyecto10-Cadenas.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto10-Cadenas\Proyecto10-Cadenas\bin\Debug\Proyecto10-Cadenas.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto10-Cadenas\Proyecto10-Cadenas\obj\Debug\Proyecto10-Cadenas.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto10-Cadenas\Proyecto10-Cadenas\obj\Debug\Proyecto10-Cadenas.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto10-Cadenas\Proyecto10-Cadenas\obj\Debug\Proyecto10-Cadenas.pdb

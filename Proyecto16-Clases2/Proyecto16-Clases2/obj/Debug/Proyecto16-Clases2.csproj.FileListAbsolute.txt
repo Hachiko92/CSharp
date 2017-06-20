@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto16-Clases2\Proyecto16-Clases2\bin\Debug\Proyecto16-Clases2.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto16-Clases2\Proyecto16-Clases2\bin\Debug\Proyecto16-Clases2.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto16-Clases2\Proyecto16-Clases2\bin\Debug\Proyecto16-Clases2.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto16-Clases2\Proyecto16-Clases2\obj\Debug\Proyecto16-Clases2.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto16-Clases2\Proyecto16-Clases2\obj\Debug\Proyecto16-Clases2.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto16-Clases2\Proyecto16-Clases2\obj\Debug\Proyecto16-Clases2.pdb

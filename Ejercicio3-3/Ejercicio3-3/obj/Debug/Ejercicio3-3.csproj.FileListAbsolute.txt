@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-3\Ejercicio3-3\bin\Debug\Ejercicio3-3.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-3\Ejercicio3-3\bin\Debug\Ejercicio3-3.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-3\Ejercicio3-3\bin\Debug\Ejercicio3-3.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-3\Ejercicio3-3\obj\Debug\Ejercicio3-3.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-3\Ejercicio3-3\obj\Debug\Ejercicio3-3.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-3\Ejercicio3-3\obj\Debug\Ejercicio3-3.pdb

@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto05-For\Proyecto05-For\bin\Debug\Proyecto05-For.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto05-For\Proyecto05-For\bin\Debug\Proyecto05-For.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto05-For\Proyecto05-For\bin\Debug\Proyecto05-For.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto05-For\Proyecto05-For\obj\Debug\Proyecto05-For.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto05-For\Proyecto05-For\obj\Debug\Proyecto05-For.pdb

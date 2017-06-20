@@ -1,0 +1,3 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto06-TryCatch\Proyect06-TryCatch\bin\Debug\Proyect06-TryCatch.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto06-TryCatch\Proyect06-TryCatch\obj\Debug\Proyect06-TryCatch.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto06-TryCatch\Proyect06-TryCatch\obj\Debug\Proyect06-TryCatch.pdb

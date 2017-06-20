@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-17\Ejercicio3-17\bin\Debug\Ejercicio3-17.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-17\Ejercicio3-17\bin\Debug\Ejercicio3-17.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-17\Ejercicio3-17\bin\Debug\Ejercicio3-17.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-17\Ejercicio3-17\obj\Debug\Ejercicio3-17.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Ejercicio3-17\Ejercicio3-17\obj\Debug\Ejercicio3-17.pdb

@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyect04-While\Proyect04-While\bin\Debug\Proyect04-While.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyect04-While\Proyect04-While\bin\Debug\Proyect04-While.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyect04-While\Proyect04-While\bin\Debug\Proyect04-While.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyect04-While\Proyect04-While\obj\Debug\Proyect04-While.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyect04-While\Proyect04-While\obj\Debug\Proyect04-While.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyect04-While\Proyect04-While\obj\Debug\Proyect04-While.csprojResolveAssemblyReference.cache

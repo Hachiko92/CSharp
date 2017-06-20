@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto02-IF\Proyecto02-IF\bin\Debug\Proyecto02-IF.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto02-IF\Proyecto02-IF\bin\Debug\Proyecto02-IF.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto02-IF\Proyecto02-IF\bin\Debug\Proyecto02-IF.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto02-IF\Proyecto02-IF\obj\Debug\Proyecto02-IF.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto02-IF\Proyecto02-IF\obj\Debug\Proyecto02-IF.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto02-IF\Proyecto02-IF\obj\Debug\Proyecto02-IF.csprojResolveAssemblyReference.cache

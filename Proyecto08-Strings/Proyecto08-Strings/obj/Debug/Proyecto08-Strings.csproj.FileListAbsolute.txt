@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto08-Strings\Proyecto08-Strings\bin\Debug\Proyecto08-Strings.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto08-Strings\Proyecto08-Strings\bin\Debug\Proyecto08-Strings.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto08-Strings\Proyecto08-Strings\bin\Debug\Proyecto08-Strings.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto08-Strings\Proyecto08-Strings\obj\Debug\Proyecto08-Strings.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto08-Strings\Proyecto08-Strings\obj\Debug\Proyecto08-Strings.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto08-Strings\Proyecto08-Strings\obj\Debug\Proyecto08-Strings.csprojResolveAssemblyReference.cache

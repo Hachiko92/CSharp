@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto20-Constructor\Proyecto20-Constructor\bin\Debug\Proyecto20-Constructor.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto20-Constructor\Proyecto20-Constructor\bin\Debug\Proyecto20-Constructor.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto20-Constructor\Proyecto20-Constructor\bin\Debug\Proyecto20-Constructor.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto20-Constructor\Proyecto20-Constructor\obj\Debug\Proyecto20-Constructor.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto20-Constructor\Proyecto20-Constructor\obj\Debug\Proyecto20-Constructor.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto20-Constructor\Proyecto20-Constructor\obj\Debug\Proyecto20-Constructor.pdb

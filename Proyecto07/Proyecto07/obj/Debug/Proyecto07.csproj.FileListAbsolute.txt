@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto07\Proyecto07\bin\Debug\Proyecto07.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto07\Proyecto07\bin\Debug\Proyecto07.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto07\Proyecto07\bin\Debug\Proyecto07.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto07\Proyecto07\obj\Debug\Proyecto07.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto07\Proyecto07\obj\Debug\Proyecto07.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto07\Proyecto07\obj\Debug\Proyecto07.pdb

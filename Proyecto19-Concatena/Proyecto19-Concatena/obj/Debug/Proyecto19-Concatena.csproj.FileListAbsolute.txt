@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto19-Concatena\Proyecto19-Concatena\bin\Debug\Proyecto19-Concatena.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto19-Concatena\Proyecto19-Concatena\bin\Debug\Proyecto19-Concatena.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto19-Concatena\Proyecto19-Concatena\bin\Debug\Proyecto19-Concatena.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto19-Concatena\Proyecto19-Concatena\obj\Debug\Proyecto19-Concatena.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto19-Concatena\Proyecto19-Concatena\obj\Debug\Proyecto19-Concatena.pdb

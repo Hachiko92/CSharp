@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto09-Matrice\Proyecto09-Matrice\bin\Debug\Proyecto09-Matrice.exe.config
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto09-Matrice\Proyecto09-Matrice\bin\Debug\Proyecto09-Matrice.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto09-Matrice\Proyecto09-Matrice\bin\Debug\Proyecto09-Matrice.pdb
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto09-Matrice\Proyecto09-Matrice\obj\Debug\Proyecto09-Matrice.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto09-Matrice\Proyecto09-Matrice\obj\Debug\Proyecto09-Matrice.exe
+C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto09-Matrice\Proyecto09-Matrice\obj\Debug\Proyecto09-Matrice.pdb
