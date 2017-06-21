@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-1\Ejercicio6-1\bin\Debug\Ejercicio6-1.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-1\Ejercicio6-1\bin\Debug\Ejercicio6-1.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-1\Ejercicio6-1\bin\Debug\Ejercicio6-1.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-1\Ejercicio6-1\obj\Debug\Ejercicio6-1.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-1\Ejercicio6-1\obj\Debug\Ejercicio6-1.pdb

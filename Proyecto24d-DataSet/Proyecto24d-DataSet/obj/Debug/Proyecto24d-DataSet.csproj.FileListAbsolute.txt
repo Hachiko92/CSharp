@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24d-DataSet\Proyecto24d-DataSet\bin\Debug\Proyecto24d-DataSet.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24d-DataSet\Proyecto24d-DataSet\bin\Debug\Proyecto24d-DataSet.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24d-DataSet\Proyecto24d-DataSet\bin\Debug\Proyecto24d-DataSet.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24d-DataSet\Proyecto24d-DataSet\obj\Debug\Proyecto24d-DataSet.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24d-DataSet\Proyecto24d-DataSet\obj\Debug\Proyecto24d-DataSet.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24d-DataSet\Proyecto24d-DataSet\obj\Debug\Proyecto24d-DataSet.pdb

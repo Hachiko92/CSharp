@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-2\Ejercicio6-2\bin\Debug\Ejercicio6-2.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-2\Ejercicio6-2\bin\Debug\Ejercicio6-2.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-2\Ejercicio6-2\bin\Debug\Ejercicio6-2.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-2\Ejercicio6-2\obj\Debug\Ejercicio6-2.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-2\Ejercicio6-2\obj\Debug\Ejercicio6-2.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio6-2\Ejercicio6-2\obj\Debug\Ejercicio6-2.pdb

@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24c-Update\Proyecto24c-Update\bin\Debug\Proyecto24c-Update.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24c-Update\Proyecto24c-Update\bin\Debug\Proyecto24c-Update.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24c-Update\Proyecto24c-Update\bin\Debug\Proyecto24c-Update.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24c-Update\Proyecto24c-Update\obj\Debug\Proyecto24c-Update.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24c-Update\Proyecto24c-Update\obj\Debug\Proyecto24c-Update.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24c-Update\Proyecto24c-Update\obj\Debug\Proyecto24c-Update.pdb

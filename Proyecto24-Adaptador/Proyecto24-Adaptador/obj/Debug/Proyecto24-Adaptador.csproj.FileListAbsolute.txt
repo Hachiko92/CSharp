@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Adaptador\Proyecto24-Adaptador\bin\Debug\Proyecto24-Adaptador.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Adaptador\Proyecto24-Adaptador\bin\Debug\Proyecto24-Adaptador.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Adaptador\Proyecto24-Adaptador\bin\Debug\Proyecto24-Adaptador.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Adaptador\Proyecto24-Adaptador\obj\Debug\Proyecto24-Adaptador.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Adaptador\Proyecto24-Adaptador\obj\Debug\Proyecto24-Adaptador.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Adaptador\Proyecto24-Adaptador\obj\Debug\Proyecto24-Adaptador.pdb

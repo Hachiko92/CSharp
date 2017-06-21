@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Database\Proyecto24-Database\bin\Debug\Proyecto24-Database.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Database\Proyecto24-Database\bin\Debug\Proyecto24-Database.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Database\Proyecto24-Database\bin\Debug\Proyecto24-Database.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Database\Proyecto24-Database\obj\Debug\Proyecto24-Database.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Database\Proyecto24-Database\obj\Debug\Proyecto24-Database.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto24-Database\Proyecto24-Database\obj\Debug\Proyecto24-Database.pdb
