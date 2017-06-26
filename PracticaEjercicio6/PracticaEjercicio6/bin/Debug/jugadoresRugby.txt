@@ -1,0 +1,21 @@
+
+Jugador 1
+Nombre: Luis
+Peso: 98,5
+Altura: 190
+Masa corporal: 0,002728532
+
+
+Jugador 2
+Nombre: Roberto
+Peso: 85
+Altura: 186,4
+Masa corporal: 0,002446398
+
+
+Jugador 3
+Nombre: Pablo
+Peso: 95
+Altura: 187
+Masa corporal: 0,002716692
+

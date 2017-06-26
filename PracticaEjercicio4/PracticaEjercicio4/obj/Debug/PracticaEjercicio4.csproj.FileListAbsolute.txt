@@ -1,0 +1,10 @@
+c:\users\eleon\documents\visual studio 2017\Projects\PracticaEjercicio4\PracticaEjercicio4\obj\Debug\PracticaEjercicio4.csprojResolveAssemblyReference.cache
+c:\users\eleon\documents\visual studio 2017\Projects\PracticaEjercicio4\PracticaEjercicio4\bin\Debug\PracticaEjercicio4.exe
+c:\users\eleon\documents\visual studio 2017\Projects\PracticaEjercicio4\PracticaEjercicio4\bin\Debug\PracticaEjercicio4.pdb
+c:\users\eleon\documents\visual studio 2017\Projects\PracticaEjercicio4\PracticaEjercicio4\obj\Debug\PracticaEjercicio4.exe
+c:\users\eleon\documents\visual studio 2017\Projects\PracticaEjercicio4\PracticaEjercicio4\obj\Debug\PracticaEjercicio4.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\PracticaEjercicio4\PracticaEjercicio4\obj\Debug\PracticaEjercicio4.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\PracticaEjercicio4\PracticaEjercicio4\obj\Debug\PracticaEjercicio4.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\PracticaEjercicio4\PracticaEjercicio4\bin\Debug\PracticaEjercicio4.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\PracticaEjercicio4\PracticaEjercicio4\bin\Debug\PracticaEjercicio4.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\PracticaEjercicio4\PracticaEjercicio4\obj\Debug\PracticaEjercicio4.csprojResolveAssemblyReference.cache

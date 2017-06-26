@@ -1,0 +1,8 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\bin\Debug\Proyecto26-Bestemmia.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\bin\Debug\Proyecto26-Bestemmia.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\bin\Debug\Proyecto26-Bestemmia.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\obj\Debug\Proyecto26_Bestemmia.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\obj\Debug\Proyecto26_Bestemmia.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\obj\Debug\Proyecto26-Bestemmia.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\obj\Debug\Proyecto26-Bestemmia.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-Bestemmia\Proyecto26-Bestemmia\obj\Debug\Proyecto26-Bestemmia.pdb

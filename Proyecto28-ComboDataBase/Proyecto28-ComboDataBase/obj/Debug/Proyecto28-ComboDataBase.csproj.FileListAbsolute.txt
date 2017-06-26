@@ -1,0 +1,9 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\bin\Debug\Proyecto28-ComboDataBase.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\bin\Debug\Proyecto28-ComboDataBase.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\bin\Debug\Proyecto28-ComboDataBase.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\obj\Debug\Proyecto28-ComboDataBase.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\obj\Debug\Proyecto28_ComboDataBase.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\obj\Debug\Proyecto28_ComboDataBase.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\obj\Debug\Proyecto28-ComboDataBase.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\obj\Debug\Proyecto28-ComboDataBase.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboDataBase\Proyecto28-ComboDataBase\obj\Debug\Proyecto28-ComboDataBase.pdb

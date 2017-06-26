@@ -1,0 +1,13 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\bin\Debug\Tajamar.UI.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\bin\Debug\Tajamar.UI.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\bin\Debug\Tajamar.UI.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\bin\Debug\Tajamar.Negocio.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\bin\Debug\Tajamar.Datos.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\bin\Debug\Tajamar.Negocio.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\bin\Debug\Tajamar.Datos.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\obj\Debug\Tajamar.UI.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\obj\Debug\Tajamar.UI.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\obj\Debug\Tajamar.UI.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\obj\Debug\Tajamar.UI.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\obj\Debug\Tajamar.UI.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.UI\obj\Debug\Tajamar.UI.pdb

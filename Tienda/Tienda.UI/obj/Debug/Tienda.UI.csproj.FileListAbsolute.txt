@@ -1,0 +1,13 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\bin\Debug\Tienda.UI.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\bin\Debug\Tienda.UI.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\bin\Debug\Tienda.UI.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\bin\Debug\Tienda.Negocio.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\bin\Debug\Tienda.Datos.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\bin\Debug\Tienda.Negocio.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\bin\Debug\Tienda.Datos.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\obj\Debug\Tienda.UI.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\obj\Debug\Tienda.UI.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\obj\Debug\Tienda.UI.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\obj\Debug\Tienda.UI.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\obj\Debug\Tienda.UI.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.UI\obj\Debug\Tienda.UI.pdb

@@ -4,3 +4,6 @@ C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto22-Formas\Proyecto22-Formas\bin\D
 C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto22-Formas\Proyecto22-Formas\obj\Debug\Proyecto22-Formas.csprojResolveAssemblyReference.cache
 C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto22-Formas\Proyecto22-Formas\obj\Debug\Proyecto22-Formas.exe
 C:\Users\Web2017\Documents\CursoWeb\C#\Proyecto22-Formas\Proyecto22-Formas\obj\Debug\Proyecto22-Formas.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Proyecto22-Formas\Proyecto22-Formas\bin\Debug\Proyecto22-Formas.exe.config
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Proyecto22-Formas\Proyecto22-Formas\obj\Debug\Proyecto22-Formas.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Proyecto22-Formas\Proyecto22-Formas\obj\Debug\Proyecto22-Formas.pdb

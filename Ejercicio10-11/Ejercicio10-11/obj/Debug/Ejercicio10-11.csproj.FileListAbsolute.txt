@@ -1,0 +1,10 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-11\Ejercicio10-11\bin\Debug\Ejercicio10-11.exe.config
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\bin\Debug\Ejercicio10-11.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\bin\Debug\Ejercicio10-11.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\obj\Debug\Ejercicio10-11.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\obj\Debug\Ejercicio10_11.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\obj\Debug\Ejercicio10_11.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\obj\Debug\Ejercicio10-11.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\obj\Debug\Ejercicio10-11.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\obj\Debug\Ejercicio10-11.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Ejercicio10-11\Ejercicio10-11\obj\Debug\Ejercicio10_11.Form2.resources

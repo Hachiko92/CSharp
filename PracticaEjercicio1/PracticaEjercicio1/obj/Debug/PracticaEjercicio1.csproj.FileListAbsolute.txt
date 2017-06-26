@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\PracticaEjercicio1\PracticaEjercicio1\bin\Debug\PracticaEjercicio1.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\PracticaEjercicio1\PracticaEjercicio1\bin\Debug\PracticaEjercicio1.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\PracticaEjercicio1\PracticaEjercicio1\bin\Debug\PracticaEjercicio1.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\PracticaEjercicio1\PracticaEjercicio1\obj\Debug\PracticaEjercicio1.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\PracticaEjercicio1\PracticaEjercicio1\obj\Debug\PracticaEjercicio1.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\PracticaEjercicio1\PracticaEjercicio1\obj\Debug\PracticaEjercicio1.csprojResolveAssemblyReference.cache

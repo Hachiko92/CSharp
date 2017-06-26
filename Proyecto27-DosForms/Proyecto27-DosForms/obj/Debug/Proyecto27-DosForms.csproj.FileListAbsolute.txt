@@ -1,0 +1,9 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\bin\Debug\Proyecto27-DosForms.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\bin\Debug\Proyecto27-DosForms.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\bin\Debug\Proyecto27-DosForms.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\obj\Debug\Proyecto27_DosForms.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\obj\Debug\Proyecto27_DosForms.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\obj\Debug\Proyecto27-DosForms.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\obj\Debug\Proyecto27-DosForms.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\obj\Debug\Proyecto27-DosForms.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto27-DosForms\Proyecto27-DosForms\obj\Debug\Proyecto27_DosForms.Form2.resources

@@ -1,0 +1,10 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\bin\Debug\EjercicioForm3.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\obj\Debug\EjercicioForm3.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\obj\Debug\EjercicioForm3.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\obj\Debug\EjercicioForm3.Form2.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\obj\Debug\EjercicioForm3.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\obj\Debug\EjercicioForm3.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\bin\Debug\EjercicioForm3.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\bin\Debug\EjercicioForm3.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\obj\Debug\EjercicioForm3.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioForm3\EjercicioForm3\obj\Debug\EjercicioForm3.pdb

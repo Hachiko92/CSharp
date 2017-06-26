@@ -1,0 +1,8 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\bin\Debug\Proyecto26-WindowsForm.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\bin\Debug\Proyecto26-WindowsForm.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\bin\Debug\Proyecto26-WindowsForm.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\obj\Debug\Proyecto26_WindowsForm.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\obj\Debug\Proyecto26_WindowsForm.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\obj\Debug\Proyecto26-WindowsForm.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\obj\Debug\Proyecto26-WindowsForm.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto26-WindowsForm\Proyecto26-WindowsForm\obj\Debug\Proyecto26-WindowsForm.pdb

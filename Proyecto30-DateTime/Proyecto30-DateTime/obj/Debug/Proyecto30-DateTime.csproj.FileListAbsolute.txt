@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto30-DateTime\Proyecto30-DateTime\bin\Debug\Proyecto30-DateTime.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto30-DateTime\Proyecto30-DateTime\bin\Debug\Proyecto30-DateTime.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto30-DateTime\Proyecto30-DateTime\bin\Debug\Proyecto30-DateTime.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto30-DateTime\Proyecto30-DateTime\obj\Debug\Proyecto30-DateTime.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto30-DateTime\Proyecto30-DateTime\obj\Debug\Proyecto30-DateTime.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto30-DateTime\Proyecto30-DateTime\obj\Debug\Proyecto30-DateTime.pdb

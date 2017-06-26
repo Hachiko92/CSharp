@@ -1,0 +1,7 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.Negocio\bin\Debug\Tienda.Negocio.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.Negocio\bin\Debug\Tienda.Negocio.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.Negocio\bin\Debug\Tienda.Datos.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.Negocio\bin\Debug\Tienda.Datos.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.Negocio\obj\Debug\Tienda.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.Negocio\obj\Debug\Tienda.Negocio.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Tienda\Tienda.Negocio\obj\Debug\Tienda.Negocio.pdb

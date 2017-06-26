@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto25\Proyecto25\bin\Debug\Proyecto25.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto25\Proyecto25\bin\Debug\Proyecto25.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto25\Proyecto25\bin\Debug\Proyecto25.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto25\Proyecto25\obj\Debug\Proyecto25.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto25\Proyecto25\obj\Debug\Proyecto25.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto25\Proyecto25\obj\Debug\Proyecto25.pdb

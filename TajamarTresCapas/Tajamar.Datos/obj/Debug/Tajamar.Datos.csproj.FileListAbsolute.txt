@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Datos\bin\Debug\Tajamar.Datos.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Datos\bin\Debug\Tajamar.Datos.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Datos\obj\Debug\Tajamar.Datos.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Datos\obj\Debug\Tajamar.Datos.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Datos\obj\Debug\Tajamar.Datos.pdb

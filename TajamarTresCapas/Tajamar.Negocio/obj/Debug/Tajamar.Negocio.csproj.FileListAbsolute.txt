@@ -1,0 +1,7 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Negocio\bin\Debug\Tajamar.Negocio.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Negocio\bin\Debug\Tajamar.Negocio.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Negocio\bin\Debug\Tajamar.Datos.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Negocio\bin\Debug\Tajamar.Datos.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Negocio\obj\Debug\Tajamar.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Negocio\obj\Debug\Tajamar.Negocio.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\TajamarTresCapas\Tajamar.Negocio\obj\Debug\Tajamar.Negocio.pdb

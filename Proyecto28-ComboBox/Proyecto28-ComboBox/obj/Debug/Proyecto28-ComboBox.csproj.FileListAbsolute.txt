@@ -1,0 +1,11 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\bin\Debug\Proyecto28-ComboBox.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28_ComboBox.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28_ComboBox.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28-ComboBox.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\bin\Debug\Proyecto28-ComboBox.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\bin\Debug\Proyecto28-ComboBox.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28-ComboBox.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28-ComboBox.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28-ComboBox.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28_ComboBox.Form2.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto28-ComboBox\Proyecto28-ComboBox\obj\Debug\Proyecto28_ComboBox.Form3.resources

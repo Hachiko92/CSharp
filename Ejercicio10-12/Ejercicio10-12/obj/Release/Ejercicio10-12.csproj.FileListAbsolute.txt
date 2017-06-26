@@ -1,0 +1,8 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\bin\Release\Ejercicio10-12.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\bin\Release\Ejercicio10-12.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\bin\Release\Ejercicio10-12.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\obj\Release\Ejercicio10_12.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\obj\Release\Ejercicio10_12.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\obj\Release\Ejercicio10-12.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\obj\Release\Ejercicio10-12.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Ejercicio10-12\Ejercicio10-12\obj\Release\Ejercicio10-12.pdb

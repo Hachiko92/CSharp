@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto31-Enumeracion\Proyecto31-Enumeracion\bin\Debug\Proyecto31-Enumeracion.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto31-Enumeracion\Proyecto31-Enumeracion\bin\Debug\Proyecto31-Enumeracion.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto31-Enumeracion\Proyecto31-Enumeracion\bin\Debug\Proyecto31-Enumeracion.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto31-Enumeracion\Proyecto31-Enumeracion\obj\Debug\Proyecto31-Enumeracion.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto31-Enumeracion\Proyecto31-Enumeracion\obj\Debug\Proyecto31-Enumeracion.pdb

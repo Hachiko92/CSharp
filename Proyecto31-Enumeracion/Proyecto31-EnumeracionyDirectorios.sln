@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto31-Enumeracion", "Proyecto31-Enumeracion\Proyecto31-Enumeracion.csproj", "{DC99D38A-0A72-4265-A5D8-EBD91B47ACCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC99D38A-0A72-4265-A5D8-EBD91B47ACCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC99D38A-0A72-4265-A5D8-EBD91B47ACCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC99D38A-0A72-4265-A5D8-EBD91B47ACCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC99D38A-0A72-4265-A5D8-EBD91B47ACCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
