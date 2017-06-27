@@ -1,0 +1,6 @@
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto13-Funciones\Proyecto13-Funciones\bin\Debug\Proyecto13-Funciones.exe.config
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto13-Funciones\Proyecto13-Funciones\bin\Debug\Proyecto13-Funciones.exe
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto13-Funciones\Proyecto13-Funciones\bin\Debug\Proyecto13-Funciones.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto13-Funciones\Proyecto13-Funciones\obj\Debug\Proyecto13-Funciones.csprojResolveAssemblyReference.cache
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto13-Funciones\Proyecto13-Funciones\obj\Debug\Proyecto13-Funciones.exe
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto13-Funciones\Proyecto13-Funciones\obj\Debug\Proyecto13-Funciones.pdb

@@ -1,0 +1,5 @@
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto29-List\Proyecto29-List\bin\Debug\Proyecto29-List.exe.config
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto29-List\Proyecto29-List\bin\Debug\Proyecto29-List.exe
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto29-List\Proyecto29-List\bin\Debug\Proyecto29-List.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto29-List\Proyecto29-List\obj\Debug\Proyecto29-List.exe
+c:\users\web2017\documents\visual studio 2015\Projects\Proyecto29-List\Proyecto29-List\obj\Debug\Proyecto29-List.pdb

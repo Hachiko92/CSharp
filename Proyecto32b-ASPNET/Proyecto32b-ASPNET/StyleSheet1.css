@@ -1,0 +1,10 @@
+﻿body {
+    background-color: azure;
+}
+
+form>div{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+}
