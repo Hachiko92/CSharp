@@ -27,13 +27,23 @@ namespace EjercicioASP2_2
                          where n == 2
                          select n).FirstOrDefault();
 
-            //var operacion = from n in lista
-            //                select n;
+            if (data1 != 0)
+            {
+                //
+            }
 
-            //int suma = operacion.Sum();
+            var operacion = from n in lista
+                            select n;
 
-            int suma = (from n in lista
-                    select n).Sum();
+            int suma = operacion.Sum();
+
+            //int suma = (from n in lista
+            //        select n).Sum();
+
+            var minimo = operacion.Min();
+            var maximo = operacion.Max();
+
+            decimal media = Convert.ToDecimal(operacion.Average());
 
         }
     }
