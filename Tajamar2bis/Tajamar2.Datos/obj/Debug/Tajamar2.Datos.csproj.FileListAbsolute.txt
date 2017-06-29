@@ -1,0 +1,5 @@
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Datos\bin\Debug\Tajamar2.Datos.dll
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Datos\bin\Debug\Tajamar2.Datos.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Datos\obj\Debug\Tajamar2.Datos.csprojResolveAssemblyReference.cache
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Datos\obj\Debug\Tajamar2.Datos.dll
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Datos\obj\Debug\Tajamar2.Datos.pdb

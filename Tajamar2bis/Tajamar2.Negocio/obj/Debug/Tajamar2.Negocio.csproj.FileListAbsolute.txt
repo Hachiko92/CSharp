@@ -1,0 +1,7 @@
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Negocio\obj\Debug\Tajamar2.Negocio.csprojResolveAssemblyReference.cache
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Negocio\bin\Debug\Tajamar2.Negocio.dll
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Negocio\bin\Debug\Tajamar2.Negocio.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Negocio\bin\Debug\Tajamar2.Datos.dll
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Negocio\bin\Debug\Tajamar2.Datos.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Negocio\obj\Debug\Tajamar2.Negocio.dll
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.Negocio\obj\Debug\Tajamar2.Negocio.pdb

@@ -1,0 +1,13 @@
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\bin\Debug\Tajamar2.UI.exe.config
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\obj\Debug\Tajamar2.UI.csprojResolveAssemblyReference.cache
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\obj\Debug\Tajamar2.UI.Form1.resources
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\obj\Debug\Tajamar2.UI.Properties.Resources.resources
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\obj\Debug\Tajamar2.UI.csproj.GenerateResource.Cache
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\bin\Debug\Tajamar2.UI.exe
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\bin\Debug\Tajamar2.UI.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\bin\Debug\Tajamar2.Negocio.dll
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\bin\Debug\Tajamar2.Datos.dll
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\bin\Debug\Tajamar2.Negocio.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\bin\Debug\Tajamar2.Datos.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\obj\Debug\Tajamar2.UI.exe
+c:\users\web2017\documents\visual studio 2015\Projects\Tajamar2bis\Tajamar2.UI\obj\Debug\Tajamar2.UI.pdb

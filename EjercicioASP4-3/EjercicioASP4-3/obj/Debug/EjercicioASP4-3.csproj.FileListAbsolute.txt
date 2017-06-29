@@ -1,0 +1,99 @@
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\ApplicationInsights.config
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\csc.exe
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\System.Collections.Immutable.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\vbc.exe
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\VBCSCompiler.exe
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\VBCSCompiler.exe.config
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.dll.config
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.pdb
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Web.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.WindowsServer.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.ApplicationInsights.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Web.xml
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.WindowsServer.xml
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.ApplicationInsights.xml
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.csprojResolveAssemblyReference.cache
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.dll
+c:\users\web2017\documents\visual studio 2015\Projects\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.pdb
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\ApplicationInsights.config
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\csc.exe
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\vbc.exe
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\VBCSCompiler.exe
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.dll.config
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.pdb
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Web.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Web.xml
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.dll
+C:\Users\Web2017\Desktop\EleonoraFranchini\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\ApplicationInsights.config
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\csc.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\vbc.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\VBCSCompiler.exe
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.dll.config
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\EjercicioASP4-3.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Web.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.Web.xml
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.dll
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioASP4-3\EjercicioASP4-3\obj\Debug\EjercicioASP4-3.pdb

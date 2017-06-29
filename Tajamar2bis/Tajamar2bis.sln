@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tajamar2.UI", "Tajamar2.UI\Tajamar2.UI.csproj", "{23019788-C13C-4E75-9BF1-0F36FF2611E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tajamar2.Negocio", "Tajamar2.Negocio\Tajamar2.Negocio.csproj", "{7F7965A6-23CD-47F0-8E2D-29F0621B67C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tajamar2.Datos", "Tajamar2.Datos\Tajamar2.Datos.csproj", "{0F2094C0-6CA5-4324-809E-8884A0F1D604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23019788-C13C-4E75-9BF1-0F36FF2611E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23019788-C13C-4E75-9BF1-0F36FF2611E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23019788-C13C-4E75-9BF1-0F36FF2611E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23019788-C13C-4E75-9BF1-0F36FF2611E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7965A6-23CD-47F0-8E2D-29F0621B67C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7965A6-23CD-47F0-8E2D-29F0621B67C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7965A6-23CD-47F0-8E2D-29F0621B67C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7965A6-23CD-47F0-8E2D-29F0621B67C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2094C0-6CA5-4324-809E-8884A0F1D604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2094C0-6CA5-4324-809E-8884A0F1D604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2094C0-6CA5-4324-809E-8884A0F1D604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2094C0-6CA5-4324-809E-8884A0F1D604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

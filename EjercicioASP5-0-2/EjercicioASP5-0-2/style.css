@@ -1,0 +1,30 @@
+﻿body {
+    background-color: white;
+    color: #333;
+}
+
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 0;
+    border-bottom: 1px solid;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    padding: 5px 20px;
+}
+
+nav li:hover{
+    background-color: lightblue;
+}
