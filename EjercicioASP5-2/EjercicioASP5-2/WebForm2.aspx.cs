@@ -11,7 +11,7 @@ namespace EjercicioASP5_2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsCallback)
+            if (PreviousPage != null)
             {
                 double asignatura1 = PreviousPage.asignatura1;
                 double asignatura2 = PreviousPage.asignatura2;
@@ -20,12 +20,15 @@ namespace EjercicioASP5_2
                 double media = mediaTresNumeros(asignatura1, asignatura2, asignatura3);
                 txtMedia.Text = media.ToString();
             }
+            else
+            {
+                Response.Write("De que no");
+            }
         }
 
         public double mediaTresNumeros (double n1, double n2, double n3)
         {
-            double suma = n1 + n2 + n3;
-            double media = suma / 3;
+            double media = (n1 + n2 + n3) / 3;
             return media;
         }
     }
