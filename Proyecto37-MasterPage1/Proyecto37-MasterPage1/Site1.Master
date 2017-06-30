@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Proyecto37_MasterPage1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Ejemplo de Pagina Maestra</title>
+    <!-- ***** JavaScript ***** -->
+    <script src="main.js"></script>
+    <!-- ***** Css ***** -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- dentro del ContentPlaceHolder van solo las cosas variables -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrap">
+        <table>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="Header" runat="server">
+                        
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td>
+                    <img src="img/super.gif" width="400" alt="header" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="Contenido" runat="server">
+                        
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td>
+                    Formulario
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="Footer" runat="server">
+                        @CopyRight: Todos los derechos reservados.
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

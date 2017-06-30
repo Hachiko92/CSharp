@@ -1,0 +1,13 @@
+﻿body {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrap td{
+    padding: 20px;
+}
