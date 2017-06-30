@@ -1,0 +1,39 @@
+﻿body {
+    color: #333;
+    background-color: whitesmoke;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin: 10px 0;
+    align-items: center;
+}
+
+header img{
+    width: 60px;
+    height: 57px;
+}
+header a{
+    text-decoration: none;
+}
+header a, header a:hover, header a:visited{
+    color: #333;
+}
+
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrap input, .wrap label{
+    margin: 5px 0;
+}
+
+footer{
+    margin: 10px 0;
+    text-align: center;
+}
+

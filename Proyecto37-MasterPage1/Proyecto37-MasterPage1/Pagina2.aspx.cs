@@ -16,6 +16,8 @@ namespace Proyecto37_MasterPage1
             /* ctl -> control, 00 -> primera posición */
             string valor = Request.Form["ctl00$Contenido$txtNombre"];
             TextBox1.Text = valor;
+
+            txtFecha.Text = DateTime.Now.ToShortDateString();
         }
     }
 }

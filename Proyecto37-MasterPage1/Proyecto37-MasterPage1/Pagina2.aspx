@@ -9,5 +9,5 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="Footer" runat="server">
     <!-- Codigo Spaghetti -> lo que va en <% %> es c# -->
-    <asp:TextBox ID="txtFecha" Text="<% DateTime.Now %>" runat="server"></asp:TextBox>
+    <asp:TextBox ID="txtFecha" runat="server"></asp:TextBox>
 </asp:Content>

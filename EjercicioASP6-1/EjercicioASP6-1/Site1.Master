@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EjercicioASP6_1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Ejercicio 6.1</title>
+    <link href="style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrap">
+        <header>
+
+            <img src="img/Logo.png" alt="logo de la Empresa" />
+            <a href="Pagina1.aspx"><h1>ELIO</h1></a>
+
+        </header>
+        <asp:ContentPlaceHolder ID="cuerpo" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer>
+
+            <asp:Label ID="lblFecha" runat="server" Text=""></asp:Label>
+            <small>@Copyright: Todo los derechos son resevardos.</small>
+
+        </footer>
+    </div>
+    </form>
+</body>
+</html>
