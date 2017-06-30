@@ -29,21 +29,23 @@
             <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
             <br />
             <asp:Label ID="lblCategory" runat="server" Text="Category: "></asp:Label>
-            <asp:DropDownList ID="ddlCategory" runat="server">
-                <asp:ListItem Selected="True" Text="Casa" Value="Casa"></asp:ListItem>
-                <asp:ListItem Text="Coche" Value="Coche"></asp:ListItem>
-                <asp:ListItem Text="Alimentación" Value="Alimentación"></asp:ListItem>
-                <asp:ListItem Text="Bellezza" Value="Bellezza"></asp:ListItem>
-                <asp:ListItem Text="Ropa" Value="Ropa"></asp:ListItem>
+            <!-- AutoPostBack="true" por cuando  -->
+            <asp:DropDownList ID="ddlCategory" AutoPostBack="true" runat="server">
+                <asp:ListItem Selected="True" Text="" Value="0"></asp:ListItem>
+                <asp:ListItem Text="Casa" Value="1"></asp:ListItem>
+                <asp:ListItem Text="Coche" Value="2"></asp:ListItem>
+                <asp:ListItem Text="Alimentación" Value="3"></asp:ListItem>
+                <asp:ListItem Text="Bellezza" Value="4"></asp:ListItem>
             </asp:DropDownList>
+            <asp:HiddenField ID="HiddenField1" runat="server"></asp:HiddenField>
             <br />
             <asp:Label ID="lblSupplier" runat="server" Text="Supplier: "></asp:Label>
-            <asp:DropDownList ID="ddlSupplier" runat="server">
-                <asp:ListItem Selected="True" Text="Pippo" Value="Pippo"></asp:ListItem>
-                <asp:ListItem Text="Fiat" Value="Fiat"></asp:ListItem>
-                <asp:ListItem Text="Conad" Value="Conad"></asp:ListItem>
-                <asp:ListItem Text="Flomar" Value="Flomar"></asp:ListItem>
-                <asp:ListItem Text="Zara" Value="Zara"></asp:ListItem>
+            <asp:DropDownList ID="ddlSupplier" AutoPostBack="true" runat="server">
+                <asp:ListItem Selected="True" Text="" Value="0"></asp:ListItem>
+                <asp:ListItem  Text="Pippo" Value="1"></asp:ListItem>
+                <asp:ListItem Text="Fiat" Value="2"></asp:ListItem>
+                <asp:ListItem Text="Conad" Value="3"></asp:ListItem>
+                <asp:ListItem Text="Flomar" Value="4"></asp:ListItem>
             </asp:DropDownList>
             <br />
             <asp:Label ID="lblPrice" runat="server" Text="Unit price: "></asp:Label>

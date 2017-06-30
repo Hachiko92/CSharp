@@ -26,7 +26,6 @@
                 <h1>
                     Producto añadido:
                 </h1>
-                <br />
                 <asp:Label ID="lblName" runat="server" Text="Name: "></asp:Label>
                 <br />
                 <asp:Label ID="lblCategory" runat="server" Text="Category: "></asp:Label>
