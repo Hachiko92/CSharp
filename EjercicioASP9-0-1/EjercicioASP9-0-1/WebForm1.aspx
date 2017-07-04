@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <h2>¿Productos descontados?</h2>
+        <h2>¿Productos descuentados?</h2>
         <asp:RadioButtonList ID="rbDescuento" AutoPostBack="true" runat="server">
             <asp:ListItem Selected="True" Value="1">Si</asp:ListItem>
             <asp:ListItem Value="0">No</asp:ListItem>
