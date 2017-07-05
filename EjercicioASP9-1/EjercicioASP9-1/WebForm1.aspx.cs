@@ -33,6 +33,8 @@ namespace EjercicioASP9_1
 
         protected void drpCustomers_SelectedIndexChanged(object sender, EventArgs e)
         {
+            /* con el atributo AppendDataBoundItems="true" no se vasiaba cuando cambiava el
+             * el valor en drpCustomers, así se resuelve el problema */
             drpEmployees.Items.Clear();
             drpEmployees.Items.Add(" - Selecciona un Cliente - ");
             txtId.Text = "";

@@ -13,5 +13,16 @@ namespace Proyecto43_GridView
         {
 
         }
+
+        protected void SqlDataSource1_Updated(object sender, SqlDataSourceStatusEventArgs e)
+        {
+            /* esto se executa después que se haya actualizado el registro */
+
+        }
+
+        protected void SqlDataSource1_Updating(object sender, SqlDataSourceCommandEventArgs e)
+        {
+            /* se executa antes que se dispare la actualizaccion */
+        }
     }
 }
