@@ -1,0 +1,11 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\bin\Debug\WindowsForms.exe.config
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\bin\Debug\WindowsForms.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\bin\Debug\WindowsForms.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\bin\Debug\ClassLibrary1.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\bin\Debug\ClassLibrary1.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\obj\Debug\WindowsForms.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\obj\Debug\WindowsForms.Form1.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.Cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\obj\Debug\WindowsForms.exe
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\WindowsForms\obj\Debug\WindowsForms.pdb

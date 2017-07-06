@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\ClassLibrary1\obj\Debug\Libreria.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto45-LinqToObjects\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
