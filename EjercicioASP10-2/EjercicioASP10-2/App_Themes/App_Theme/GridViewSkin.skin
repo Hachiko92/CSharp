@@ -1,0 +1,9 @@
+﻿<asp:GridView runat="server"
+    Font-Name="Arial"
+    Font-Size="13pt"
+    SelectedRowStyle-BackColor="#F2F2F2"
+    BackColor="#A5F0E9"
+    AlternatingRowStyle-BackColor="#C4FCFA"
+    HeaderStyle-BackColor="#333333"
+    HeaderStyle-ForeColor="White"
+    HeaderStyle-Font-Bold="True"/>

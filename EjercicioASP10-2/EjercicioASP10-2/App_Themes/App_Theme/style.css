@@ -1,0 +1,8 @@
+﻿body {
+
+}
+
+.grid td, .grid th{
+    padding: 10px 5px;
+    border: 0;
+}
