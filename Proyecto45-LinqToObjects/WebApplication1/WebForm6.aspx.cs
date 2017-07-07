@@ -29,7 +29,26 @@ namespace WebApplication1
                        })
                        .OrderBy(book => book.Title);
 
-            GridView1.DataSource = books;
+            var autores = (from book in Books.GetBooks()
+                          select new
+                          {
+                              Author = book.Author
+                          }).Distinct();
+
+            var autores1 = Books.GetBooks()
+                          .Select(b => b.Author)
+                          .Distinct();
+
+            var autores2 = Books.GetBooks()
+                          .Select(b => new
+                          {
+                              Autore = b.Author
+                          }).Distinct();
+
+            //GridView1.DataSource = books;
+            //GridView1.DataSource = autores;
+            //GridView1.DataSource = autores1;
+            GridView1.DataSource = autores2;
             GridView1.DataBind();
 
         }

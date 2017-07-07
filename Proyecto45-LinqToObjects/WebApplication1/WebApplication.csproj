@@ -98,8 +98,19 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="WebForm5.aspx" />
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="WebForm10-CompletePartial.aspx" />
+    <Content Include="WebForm11-Group.aspx" />
+    <Content Include="WebForm12-ConsultaParametrizada.aspx" />
+    <Content Include="WebForm5-ListIEnumerble.aspx" />
     <Content Include="WebForm6.aspx" />
+    <Content Include="WebForm7-MinMaxSumCount.aspx" />
+    <Content Include="WebForm8.aspx" />
+    <Content Include="WebForm9-JoinIzquierda.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -127,6 +138,27 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm10-CompletePartial.aspx.cs">
+      <DependentUpon>WebForm10-CompletePartial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm10-CompletePartial.aspx.designer.cs">
+      <DependentUpon>WebForm10-CompletePartial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm11-Group.aspx.cs">
+      <DependentUpon>WebForm11-Group.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm11-Group.aspx.designer.cs">
+      <DependentUpon>WebForm11-Group.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm12-ConsultaParametrizada.aspx.cs">
+      <DependentUpon>WebForm12-ConsultaParametrizada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm12-ConsultaParametrizada.aspx.designer.cs">
+      <DependentUpon>WebForm12-ConsultaParametrizada.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -148,12 +180,12 @@
     <Compile Include="WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm5.aspx.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="WebForm5-ListIEnumerble.aspx.cs">
+      <DependentUpon>WebForm5-ListIEnumerble.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm5.aspx.designer.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="WebForm5-ListIEnumerble.aspx.designer.cs">
+      <DependentUpon>WebForm5-ListIEnumerble.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm6.aspx.cs">
       <DependentUpon>WebForm6.aspx</DependentUpon>
@@ -161,6 +193,27 @@
     </Compile>
     <Compile Include="WebForm6.aspx.designer.cs">
       <DependentUpon>WebForm6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm7-MinMaxSumCount.aspx.cs">
+      <DependentUpon>WebForm7-MinMaxSumCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm7-MinMaxSumCount.aspx.designer.cs">
+      <DependentUpon>WebForm7-MinMaxSumCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm8.aspx.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm8.aspx.designer.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm9-JoinIzquierda.aspx.cs">
+      <DependentUpon>WebForm9-JoinIzquierda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm9-JoinIzquierda.aspx.designer.cs">
+      <DependentUpon>WebForm9-JoinIzquierda.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

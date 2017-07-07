@@ -1,0 +1,5 @@
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Practica13-1Object\Libreria\bin\Debug\Libreria.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Practica13-1Object\Libreria\bin\Debug\Libreria.pdb
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Practica13-1Object\Libreria\obj\Debug\Libreria.dll
+C:\Users\Web2017\Documents\CursoWeb\Csharp\Practica13-1Object\Libreria\obj\Debug\Libreria.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Practica13-1Object\Libreria\obj\Debug\Libreria.csprojResolveAssemblyReference.cache
