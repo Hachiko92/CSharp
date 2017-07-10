@@ -21,5 +21,20 @@ namespace Libreria
 
             return list;
         }
+
+        public static int ObtenerIdFacultad(string nombre)
+        {
+            List<Facultad> lista = GetFacultad();
+
+            foreach (Facultad facultad in lista)
+            {
+                if (facultad.Nombre == nombre)
+                {
+                    return facultad.Codigo;
+                }
+            }
+
+            return 0;
+        }
     }
 }

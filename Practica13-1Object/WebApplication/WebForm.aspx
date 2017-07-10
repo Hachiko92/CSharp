@@ -50,9 +50,34 @@
                 <SortedDescendingCellStyle BackColor="#E5E5E5" />
                 <SortedDescendingHeaderStyle BackColor="#242121" />
                 <Columns>
-                    <asp:CheckBoxField  />
+                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <asp:CheckBox ID="chk" runat="server" Style="position: static" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
                 </Columns>
-        </asp:GridView>
+            </asp:GridView>
+            <asp:Label ID="lblInicio" runat="server" Text="Inicio"></asp:Label>
+        <asp:TextBox ID="txtInicio" runat="server"></asp:TextBox>
+        <asp:Button ID="btnInicio" runat="server" Text="Button" OnClick="btnInicio_Click" />
+            
+       
+            <asp:Label ID="Label1" runat="server" Text="Fin"></asp:Label>
+        <asp:TextBox ID="txtFin" runat="server"></asp:TextBox>
+        <asp:Button ID="btnFin" runat="server" Text="Button" OnClick="btnFin_Click" />
+        <asp:Calendar ID="calendar" Visible="false" runat="server" BackColor="White" BorderColor="#999999" CellPadding="4" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" Height="180px" Width="200px" OnSelectionChanged="calendar_SelectionChanged">
+                <DayHeaderStyle BackColor="#CCCCCC" Font-Bold="True" Font-Size="7pt" />
+                <NextPrevStyle VerticalAlign="Bottom" />
+                <OtherMonthDayStyle ForeColor="#808080" />
+                <SelectedDayStyle BackColor="#666666" Font-Bold="True" ForeColor="White" />
+                <SelectorStyle BackColor="#CCCCCC" />
+                <TitleStyle BackColor="#999999" BorderColor="Black" Font-Bold="True" />
+                <TodayDayStyle BackColor="#CCCCCC" ForeColor="Black" />
+                <WeekendDayStyle BackColor="#FFFFCC" />
+            </asp:Calendar>
+            <br />
+            <asp:Button ID="btnReservar" runat="server" Text="Button" OnClick="btnReservar_Click" />
+            
 
         <% } %>
     </div>
