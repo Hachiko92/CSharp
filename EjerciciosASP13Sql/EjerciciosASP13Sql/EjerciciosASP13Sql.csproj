@@ -101,6 +101,8 @@
     <Content Include="Ejercicio13-4.aspx" />
     <Content Include="Ejercicio13-5.aspx" />
     <Content Include="Ejercicio13-6.aspx" />
+    <Content Include="Ejercicio13-7.aspx" />
+    <Content Include="Ejercicio13-8.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -168,6 +170,20 @@
     </Compile>
     <Compile Include="Ejercicio13-6.aspx.designer.cs">
       <DependentUpon>Ejercicio13-6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio13-7.aspx.cs">
+      <DependentUpon>Ejercicio13-7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejercicio13-7.aspx.designer.cs">
+      <DependentUpon>Ejercicio13-7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio13-8.aspx.cs">
+      <DependentUpon>Ejercicio13-8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejercicio13-8.aspx.designer.cs">
+      <DependentUpon>Ejercicio13-8.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

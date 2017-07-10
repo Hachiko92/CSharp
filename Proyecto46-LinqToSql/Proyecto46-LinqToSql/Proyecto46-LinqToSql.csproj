@@ -120,6 +120,7 @@
     <Content Include="WebForm4.aspx" />
     <Content Include="WebForm5-SkypTake.aspx" />
     <Content Include="WebForm6-SingleyFirst.aspx" />
+    <Content Include="WebForm7-UpdateDeleteInsert.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataClasses1.cs">
@@ -175,6 +176,13 @@
     </Compile>
     <Compile Include="WebForm6-SingleyFirst.aspx.designer.cs">
       <DependentUpon>WebForm6-SingleyFirst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm7-UpdateDeleteInsert.aspx.cs">
+      <DependentUpon>WebForm7-UpdateDeleteInsert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm7-UpdateDeleteInsert.aspx.designer.cs">
+      <DependentUpon>WebForm7-UpdateDeleteInsert.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
