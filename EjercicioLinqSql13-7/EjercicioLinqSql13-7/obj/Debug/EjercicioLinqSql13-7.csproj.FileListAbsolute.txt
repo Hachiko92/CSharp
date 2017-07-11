@@ -1,1 +1,0 @@
-C:\Users\Web2017\Documents\CursoWeb\Csharp\EjercicioLinqSql13-7\EjercicioLinqSql13-7\obj\Debug\EjercicioLinqSql13-7.csprojResolveAssemblyReference.cache
