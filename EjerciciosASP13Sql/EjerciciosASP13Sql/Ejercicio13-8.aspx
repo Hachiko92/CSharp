@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:GridView ID="grdCategorias" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal" 
-            OnRowCommand="grdCategorias_RowCommand" OnSelectedIndexChanged="grdCategorias_SelectedIndexChanged">
+            OnRowCommand="grdCategorias_RowCommand">
             <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
             <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
             <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
@@ -20,7 +20,7 @@
             <SortedDescendingCellStyle BackColor="#E5E5E5" />
             <SortedDescendingHeaderStyle BackColor="#242121" />
             <Columns>
-                <asp:ButtonField HeaderText="Calcular total" Text="Seleccionar" CommandName="calcular" />
+                <asp:ButtonField HeaderText="Calcular total" Text="Seleccionar" CommandName="calcular" ButtonType="Button" />
             </Columns>
         </asp:GridView>
 

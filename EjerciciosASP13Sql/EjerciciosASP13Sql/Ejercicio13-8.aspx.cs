@@ -36,7 +36,7 @@ namespace EjerciciosASP13Sql
             {
                 int index = Convert.ToInt32(e.CommandArgument);
                 GridViewRow fila = grdCategorias.Rows[index];
-                int categoria = Convert.ToInt32(fila.Cells[0].Text);
+                int categoria = Convert.ToInt32(fila.Cells[1].Text);
 
                 getTotal(categoria);
             }
@@ -53,15 +53,6 @@ namespace EjerciciosASP13Sql
 
                 txtTotal.Text = total.ToString();
             }
-        }
-
-        protected void grdCategorias_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            int index = Convert.ToInt32(grdCategorias.SelectedIndex);
-            GridViewRow fila = grdCategorias.Rows[index];
-            int categoria = Convert.ToInt32(fila.Cells[0].Text);
-
-            getTotal(categoria);
         }
     }
 }
