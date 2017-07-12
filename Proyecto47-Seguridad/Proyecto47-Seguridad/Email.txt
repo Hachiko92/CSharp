@@ -1,0 +1,5 @@
+﻿Hola,
+
+<%UserName%>, nos has solecitado un cambio de contraseña,
+
+esto es el link:

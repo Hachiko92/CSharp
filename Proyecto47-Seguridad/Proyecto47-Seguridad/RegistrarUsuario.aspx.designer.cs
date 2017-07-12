@@ -10,7 +10,7 @@
 namespace Proyecto47_Seguridad {
     
     
-    public partial class WebForm1 {
+    public partial class RegistrarUsuario {
         
         /// <summary>
         /// form1 control.
@@ -22,12 +22,30 @@ namespace Proyecto47_Seguridad {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// LoginView1 control.
+        /// CreateUserWizard1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LoginView LoginView1;
+        protected global::System.Web.UI.WebControls.CreateUserWizard CreateUserWizard1;
+        
+        /// <summary>
+        /// CreateUserWizardStep1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CreateUserWizardStep CreateUserWizardStep1;
+        
+        /// <summary>
+        /// CompleteWizardStep1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompleteWizardStep CompleteWizardStep1;
     }
 }
