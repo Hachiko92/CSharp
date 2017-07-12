@@ -16,3 +16,4 @@ C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto47-Seguridad\Proyecto47-Segur
 C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto47-Seguridad\Proyecto47-Seguridad\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto47-Seguridad\Proyecto47-Seguridad\obj\Debug\Proyecto47-Seguridad.dll
 C:\Users\Web2017\Documents\CursoWeb\Csharp\Proyecto47-Seguridad\Proyecto47-Seguridad\obj\Debug\Proyecto47-Seguridad.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\Proyecto47-Seguridad\Proyecto47-Seguridad\obj\Debug\Proyecto47-Seguridad.csprojResolveAssemblyReference.cache
