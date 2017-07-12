@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="ProductosSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Productos)">
+        <MappingFragment StoreEntitySet="ProductosSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PedidosSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Pedidos)">
+        <MappingFragment StoreEntitySet="PedidosSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientesSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Clientes)">
+        <MappingFragment StoreEntitySet="ClientesSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ClientesPedidos" TypeName="Model1.ClientesPedidos" StoreEntitySet="PedidosSet">
+      <EndProperty Name="Clientes">
+        <ScalarProperty Name="Id" ColumnName="Clientes_Id" />
+      </EndProperty>
+      <EndProperty Name="Pedidos">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProductosPedidos" TypeName="Model1.ProductosPedidos" StoreEntitySet="PedidosSet">
+      <EndProperty Name="Productos">
+        <ScalarProperty Name="Id" ColumnName="Productos_Id" />
+      </EndProperty>
+      <EndProperty Name="Pedidos">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

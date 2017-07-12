@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ProductosSet" EntityType="Model1.Productos" />
+    <EntitySet Name="PedidosSet" EntityType="Model1.Pedidos" />
+    <EntitySet Name="ClientesSet" EntityType="Model1.Clientes" />
+    <AssociationSet Name="ClientesPedidos" Association="Model1.ClientesPedidos">
+      <End Role="Clientes" EntitySet="ClientesSet" />
+      <End Role="Pedidos" EntitySet="PedidosSet" />
+    </AssociationSet>
+    <AssociationSet Name="ProductosPedidos" Association="Model1.ProductosPedidos">
+      <End Role="Productos" EntitySet="ProductosSet" />
+      <End Role="Pedidos" EntitySet="PedidosSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" Nullable="false" />
+    <Property Name="Address" Type="String" Nullable="false" />
+    <Property Name="Phone" Type="String" Nullable="false" />
+    <NavigationProperty Name="Pedidos" Relationship="Model1.ClientesPedidos" FromRole="Clientes" ToRole="Pedidos" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="Pedidos" Relationship="Model1.ProductosPedidos" FromRole="Productos" ToRole="Pedidos" />
+  </EntityType>
+  <EntityType Name="Pedidos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Clientes" Relationship="Model1.ClientesPedidos" FromRole="Pedidos" ToRole="Clientes" />
+    <Property Name="ClienteID" Type="String" Nullable="false" />
+    <Property Name="ProductoID" Type="String" Nullable="false" />
+    <NavigationProperty Name="Productos" Relationship="Model1.ProductosPedidos" FromRole="Pedidos" ToRole="Productos" />
+  </EntityType>
+  <Association Name="ClientesPedidos">
+    <End Type="Model1.Clientes" Role="Clientes" Multiplicity="1" />
+    <End Type="Model1.Pedidos" Role="Pedidos" Multiplicity="*" />
+  </Association>
+  <Association Name="ProductosPedidos">
+    <End Type="Model1.Productos" Role="Productos" Multiplicity="1" />
+    <End Type="Model1.Pedidos" Role="Pedidos" Multiplicity="*" />
+  </Association>
+</Schema>

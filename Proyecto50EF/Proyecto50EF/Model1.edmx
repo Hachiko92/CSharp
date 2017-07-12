@@ -4,11 +4,70 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
-        <EntityContainer Name="Model1TargetContainer" >
-        </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="PersonaSet" EntityType="Model1.Store.PersonaSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AnimalSet" EntityType="Model1.Store.AnimalSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ClaseAnimalSet" EntityType="Model1.Store.ClaseAnimalSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="PersonaAnimal" Association="Model1.Store.PersonaAnimal">
+      <End Role="Persona" EntitySet="PersonaSet" />
+      <End Role="Animal" EntitySet="AnimalSet" />
+    </AssociationSet>
+    <AssociationSet Name="ClaseAnimalAnimal" Association="Model1.Store.ClaseAnimalAnimal">
+      <End Role="ClaseAnimal" EntitySet="ClaseAnimalSet" />
+      <End Role="Animal" EntitySet="AnimalSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="PersonaSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AnimalSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PersonaID" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClaseAnimalID" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Persona_Id" Type="int" Nullable="false" />
+    <Property Name="ClaseAnimal_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClaseAnimalSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="PersonaAnimal">
+    <End Role="Persona" Type="Model1.Store.PersonaSet" Multiplicity="1" />
+    <End Role="Animal" Type="Model1.Store.AnimalSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="Persona_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ClaseAnimalAnimal">
+    <End Role="ClaseAnimal" Type="Model1.Store.ClaseAnimalSet" Multiplicity="1" />
+    <End Role="Animal" Type="Model1.Store.AnimalSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClaseAnimal">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="ClaseAnimal_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
@@ -64,13 +123,52 @@
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
-      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
-        <Alias Key="Model" Value="Model1" />
-        <Alias Key="Target" Value="Model1.Store" />
-        <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1TargetContainer">
-        </EntityContainerMapping>
-      </Mapping>
-    </edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="PersonaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Persona)">
+        <MappingFragment StoreEntitySet="PersonaSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnimalSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Animal)">
+        <MappingFragment StoreEntitySet="AnimalSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="PersonaID" ColumnName="PersonaID" />
+          <ScalarProperty Name="ClaseAnimalID" ColumnName="ClaseAnimalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClaseAnimalSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.ClaseAnimal)">
+        <MappingFragment StoreEntitySet="ClaseAnimalSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="PersonaAnimal" TypeName="Model1.PersonaAnimal" StoreEntitySet="AnimalSet">
+      <EndProperty Name="Persona">
+        <ScalarProperty Name="Id" ColumnName="Persona_Id" />
+      </EndProperty>
+      <EndProperty Name="Animal">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ClaseAnimalAnimal" TypeName="Model1.ClaseAnimalAnimal" StoreEntitySet="AnimalSet">
+      <EndProperty Name="ClaseAnimal">
+        <ScalarProperty Name="Id" ColumnName="ClaseAnimal_Id" />
+      </EndProperty>
+      <EndProperty Name="Animal">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
   </edmx:Runtime>
   <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
@@ -84,6 +182,7 @@
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
         <DesignerProperty Name="EnablePluralization" Value="False" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
       </DesignerInfoPropertySet>
     </edmx:Options>
     <!-- Diagram content (shape and connector positions) -->

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="ProductosSet" EntityType="Model1.Store.ProductosSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PedidosSet" EntityType="Model1.Store.PedidosSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ClientesSet" EntityType="Model1.Store.ClientesSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ClientesPedidos" Association="Model1.Store.ClientesPedidos">
+      <End Role="Clientes" EntitySet="ClientesSet" />
+      <End Role="Pedidos" EntitySet="PedidosSet" />
+    </AssociationSet>
+    <AssociationSet Name="ProductosPedidos" Association="Model1.Store.ProductosPedidos">
+      <End Role="Productos" EntitySet="ProductosSet" />
+      <End Role="Pedidos" EntitySet="PedidosSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ProductosSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="UnitPrice" Type="decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PedidosSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="ClienteID" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ProductoID" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Clientes_Id" Type="int" Nullable="false" />
+    <Property Name="Productos_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClientesSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="ClientesPedidos">
+    <End Role="Clientes" Type="Model1.Store.ClientesSet" Multiplicity="1" />
+    <End Role="Pedidos" Type="Model1.Store.PedidosSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Pedidos">
+        <PropertyRef Name="Clientes_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProductosPedidos">
+    <End Role="Productos" Type="Model1.Store.ProductosSet" Multiplicity="1" />
+    <End Role="Pedidos" Type="Model1.Store.PedidosSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Pedidos">
+        <PropertyRef Name="Productos_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
