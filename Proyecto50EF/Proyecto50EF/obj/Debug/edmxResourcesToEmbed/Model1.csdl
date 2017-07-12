@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PersonaSet" EntityType="Model1.Persona" />
+    <EntitySet Name="AnimalSet" EntityType="Model1.Animal" />
+    <EntitySet Name="ClaseAnimalSet" EntityType="Model1.ClaseAnimal" />
+    <AssociationSet Name="PersonaAnimal" Association="Model1.PersonaAnimal">
+      <End Role="Persona" EntitySet="PersonaSet" />
+      <End Role="Animal" EntitySet="AnimalSet" />
+    </AssociationSet>
+    <AssociationSet Name="ClaseAnimalAnimal" Association="Model1.ClaseAnimalAnimal">
+      <End Role="ClaseAnimal" EntitySet="ClaseAnimalSet" />
+      <End Role="Animal" EntitySet="AnimalSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Model1.PersonaAnimal" FromRole="Persona" ToRole="Animal" />
+  </EntityType>
+  <EntityType Name="Animal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" />
+    <Property Name="PersonaID" Type="String" Nullable="false" />
+    <Property Name="ClaseAnimalID" Type="String" Nullable="false" />
+    <NavigationProperty Name="Persona" Relationship="Model1.PersonaAnimal" FromRole="Animal" ToRole="Persona" />
+    <NavigationProperty Name="ClaseAnimal" Relationship="Model1.ClaseAnimalAnimal" FromRole="Animal" ToRole="ClaseAnimal" />
+  </EntityType>
+  <EntityType Name="ClaseAnimal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Model1.ClaseAnimalAnimal" FromRole="ClaseAnimal" ToRole="Animal" />
+  </EntityType>
+  <Association Name="PersonaAnimal">
+    <End Type="Model1.Persona" Role="Persona" Multiplicity="1" />
+    <End Type="Model1.Animal" Role="Animal" Multiplicity="*" />
+  </Association>
+  <Association Name="ClaseAnimalAnimal">
+    <End Type="Model1.ClaseAnimal" Role="ClaseAnimal" Multiplicity="1" />
+    <End Type="Model1.Animal" Role="Animal" Multiplicity="*" />
+  </Association>
+</Schema>

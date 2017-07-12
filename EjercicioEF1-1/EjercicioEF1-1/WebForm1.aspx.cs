@@ -23,16 +23,20 @@ namespace EjercicioEF1_1
                 var person = new Empleado
                 {
                     IdEmpleado = 1,
+                    DNI = "12345",
                     Nombre = "Roberto",
-                    Apellido = "Rossi"
+                    Apellido = "Rossi",
+                    Sueldo = 1000
                 };
                 context.EmpleadoSet.Add(person);
 
                 var person1 = new Empleado
                 {
                     IdEmpleado = 2,
+                    DNI = "12335",
                     Nombre = "Allen",
-                    Apellido = "Marks"
+                    Apellido = "Marks",
+                    Sueldo = 1100
                 };
                 context.EmpleadoSet.Add(person1);
 
@@ -52,7 +56,11 @@ namespace EjercicioEF1_1
                 var query = from c in context.EmpleadoSet
                             select new
                             {
-                                codEmpleado = c.IdEmpleado
+                                codEmpleado = c.IdEmpleado,
+                                DNI = c.DNI,
+                                Nombre = c.Nombre,
+                                Apellido = c.Apellido,
+                                Sueldo = c.Sueldo
                             };
 
                 GridView1.DataSource = query;
