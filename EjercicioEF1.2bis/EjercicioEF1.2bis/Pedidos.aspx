@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
     <div>
         <h1>Nuevo Pedido</h1>
+        <span id="spanCliente" visible="false" runat="server">Campo obligatorio:</span>
+        <br />
         <asp:Label ID="lblCliente" runat="server" Text="Cliente: "></asp:Label>
         <asp:DropDownList 
             ID="ddlClientes" 
@@ -17,7 +19,10 @@
             runat="server" OnSelectedIndexChanged="ddlClientes_SelectedIndexChanged">
             <asp:ListItem Text=" - Seleccione un Cliente - " Value="0"></asp:ListItem>
         </asp:DropDownList>
-        <span id="spanCliente" runat="server"></span>
+        
+        <br />
+
+        <span id="spanProducto" visible="false" runat="server">Campo obligatorio:</span>
         <br />
         <asp:Label ID="lblProducto" runat="server" Text="Producto: "></asp:Label>
         <asp:DropDownList 
@@ -29,11 +34,23 @@
         <br />
         <asp:Label ID="lblCantidad" runat="server" Text="Cantidad: "></asp:Label>
         <asp:TextBox ID="txtCantidad" runat="server"></asp:TextBox>
-        <asp:Button ID="btnCrear" runat="server" Text="Button" />
+        <asp:Button ID="btnPedir" runat="server" Text="Pedir" OnClick="btnPedir_Click" />
+
+
+        <br /><br />
 
         <%if (IsPostBack) { %>
 
-        <asp:GridView ID="grdPedido" runat="server"></asp:GridView>
+        <asp:GridView ID="grdPedido" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal">
+            <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
+            <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
+            <SelectedRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
+            <SortedAscendingCellStyle BackColor="#F7F7F7" />
+            <SortedAscendingHeaderStyle BackColor="#4B4B4B" />
+            <SortedDescendingCellStyle BackColor="#E5E5E5" />
+            <SortedDescendingHeaderStyle BackColor="#242121" />
+        </asp:GridView>
 
         <%} %>
     </div>
