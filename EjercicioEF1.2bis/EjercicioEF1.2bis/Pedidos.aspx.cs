@@ -42,21 +42,21 @@ namespace EjercicioEF1._2bis
             }
         }
 
-        protected void ddlClientes_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            using (var context = new Model1Container())
-            {
-                var clientes = from c in context.ClientesSet
-                               select new
-                               {
-                                   Nombre = c.CompanyName,
-                                   ID = c.Id
-                               };
+        //protected void ddlClientes_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+        //    using (var context = new Model1Container())
+        //    {
+        //        var clientes = from c in context.ClientesSet
+        //                       select new
+        //                       {
+        //                           Nombre = c.CompanyName,
+        //                           ID = c.Id
+        //                       };
 
-                ddlClientes.DataSource = clientes;
-                ddlClientes.DataBind();
-            }
-        }
+        //        ddlClientes.DataSource = clientes;
+        //        ddlClientes.DataBind();
+        //    }
+        //}
 
         protected void btnPedir_Click(object sender, EventArgs e)
         {
@@ -65,43 +65,60 @@ namespace EjercicioEF1._2bis
 
             int IDcliente = Convert.ToInt32(ddlClientes.SelectedValue);
             int IDproducto = Convert.ToInt32(ddlProducto.SelectedValue);
-            string producto = ddlProducto.SelectedIndex.ToString();
             int cantidad = Convert.ToInt32(txtCantidad.Text);
 
-            if (IDcliente == 0)
+            using (var context = new Model1Container())
             {
-                spanCliente.Visible = true;
-            }
-            else
-            {
-                if (IDproducto == 0)
+                if (IDcliente == 0)
                 {
-                    spanProducto.Visible = true;
+                    spanCliente.Visible = true;
                 }
                 else
                 {
-                    decimal precio = GetPrecio(IDproducto);
-                    string total = (precio * cantidad).ToString();
-
-                    Pedidos pedido = new Pedidos
+                    if (IDproducto == 0)
                     {
-                        Cantidad = cantidad,
-                        ClienteID = IDcliente,
-                        ProductoID = IDproducto
-                    };
-
-                    List<String> lista = new List<String>
+                        spanProducto.Visible = true;
+                    }
+                    else
                     {
-                        (pedido.Id).ToString(),
-                        producto,
-                        cantidad.ToString(),
-                        precio.ToString(),
-                        total
-                    };
+                        decimal precio = GetPrecio(IDproducto);
+                        string total = (precio * cantidad).ToString();
 
-                    grdPedido.DataSource = lista;
-                    grdPedido.DataBind();
+                        var clientePedido = (from c in context.ClientesSet
+                                            where c.Id == IDcliente
+                                            select c).FirstOrDefault();
 
+                        var productoPedido = (from p in context.ProductosSet
+                                       where p.Id == IDproducto
+                                       select p).FirstOrDefault();
+
+                        Pedidos pedido = new Pedidos
+                        {
+                            Cantidad = cantidad,
+                            ClienteID = IDcliente,
+                            ProductoID = IDproducto,
+                            Clientes = clientePedido,
+                            Productos = productoPedido
+                        };
+                        
+                        context.PedidosSet.Add(pedido);
+                        context.SaveChanges();
+
+                        var pedido3 = ((from p in context.PedidosSet
+                                        orderby p.Id descending
+                                        select new
+                                        {
+                                            ID = p.Id,
+                                            Producto = p.Productos.ProductName,
+                                            Cantidad = cantidad,
+                                            PrecioUnidad = precio,
+                                            Total = total
+                                        }).Take(1)).ToList();
+
+                        grdPedido.DataSource = pedido3;
+                        grdPedido.DataBind();
+
+                    }
                 }
             }
         }

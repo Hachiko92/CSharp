@@ -16,7 +16,7 @@
         <asp:DropDownList 
             ID="ddlClientes" 
             AppendDataBoundItems="true"
-            runat="server" OnSelectedIndexChanged="ddlClientes_SelectedIndexChanged">
+            runat="server">
             <asp:ListItem Text=" - Seleccione un Cliente - " Value="0"></asp:ListItem>
         </asp:DropDownList>
         
@@ -31,12 +31,18 @@
             runat="server">
             <asp:ListItem Text=" - Seleccione un Cliente - " Value="0"></asp:ListItem>
         </asp:DropDownList>
-        <br />
+        <br /><br />
         <asp:Label ID="lblCantidad" runat="server" Text="Cantidad: "></asp:Label>
         <asp:TextBox ID="txtCantidad" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator 
+            ID="RequiredFieldValidator1" 
+            runat="server" 
+            ControlToValidate="txtCantidad"
+            Text="*"
+            ErrorMessage="Campo requerido:">
+        </asp:RequiredFieldValidator>
         <asp:Button ID="btnPedir" runat="server" Text="Pedir" OnClick="btnPedir_Click" />
-
-
+        
         <br /><br />
 
         <%if (IsPostBack) { %>
