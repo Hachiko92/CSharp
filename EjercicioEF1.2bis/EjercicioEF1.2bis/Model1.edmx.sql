@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/13/2017 15:44:47
+-- Date Created: 07/13/2017 17:20:10
 -- Generated from EDMX file: C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioEF1.2bis\EjercicioEF1.2bis\Model1.edmx
 -- --------------------------------------------------
 
@@ -54,8 +54,6 @@ GO
 CREATE TABLE [dbo].[PedidosSet] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [Cantidad] int  NOT NULL,
-    [ClienteID] int  NOT NULL,
-    [ProductoID] int  NOT NULL,
     [Clientes_Id] int  NOT NULL,
     [Productos_Id] int  NOT NULL
 );

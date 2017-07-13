@@ -71,3 +71,4 @@ C:\Users\eleon\Documents\GitHub\CSharp\EjercicioEF1.2bis\EjercicioEF1.2bis\bin\M
 C:\Users\eleon\Documents\GitHub\CSharp\EjercicioEF1.2bis\EjercicioEF1.2bis\obj\Debug\EjercicioEF1.2bis.csprojResolveAssemblyReference.cache
 C:\Users\eleon\Documents\GitHub\CSharp\EjercicioEF1.2bis\EjercicioEF1.2bis\obj\Debug\EjercicioEF1.2bis.dll
 C:\Users\eleon\Documents\GitHub\CSharp\EjercicioEF1.2bis\EjercicioEF1.2bis\obj\Debug\EjercicioEF1.2bis.pdb
+C:\Users\Web2017\Documents\CursoWeb\CSharp\EjercicioEF1.2bis\EjercicioEF1.2bis\obj\Debug\EjercicioEF1.2bis.csprojResolveAssemblyReference.cache

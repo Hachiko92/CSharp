@@ -95,8 +95,6 @@ namespace EjercicioEF1._2bis
                         Pedidos pedido = new Pedidos
                         {
                             Cantidad = cantidad,
-                            ClienteID = IDcliente,
-                            ProductoID = IDproducto,
                             Clientes = clientePedido,
                             Productos = productoPedido
                         };

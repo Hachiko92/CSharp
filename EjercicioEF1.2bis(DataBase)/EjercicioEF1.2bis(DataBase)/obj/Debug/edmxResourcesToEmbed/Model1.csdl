@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VientoNorteModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ClientesSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PedidosSet" Relationship="Self.FK_ClientesPedidos" FromRole="ClientesSet" ToRole="PedidosSet" />
+  </EntityType>
+  <EntityType Name="PedidosSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <Property Name="ClientesId" Type="Int32" Nullable="false" />
+    <Property Name="ProductosId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ClientesSet" Relationship="Self.FK_ClientesPedidos" FromRole="PedidosSet" ToRole="ClientesSet" />
+    <NavigationProperty Name="ProductosSet" Relationship="Self.FK_ProductosPedidos" FromRole="PedidosSet" ToRole="ProductosSet" />
+  </EntityType>
+  <EntityType Name="ProductosSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UnitPrice" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="PedidosSet" Relationship="Self.FK_ProductosPedidos" FromRole="ProductosSet" ToRole="PedidosSet" />
+  </EntityType>
+  <Association Name="FK_ClientesPedidos">
+    <End Role="ClientesSet" Type="Self.ClientesSet" Multiplicity="1" />
+    <End Role="PedidosSet" Type="Self.PedidosSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientesSet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidosSet">
+        <PropertyRef Name="ClientesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductosPedidos">
+    <End Role="ProductosSet" Type="Self.ProductosSet" Multiplicity="1" />
+    <End Role="PedidosSet" Type="Self.PedidosSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductosSet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidosSet">
+        <PropertyRef Name="ProductosId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VientoNorteEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ClientesSet" EntityType="Self.ClientesSet" />
+    <EntitySet Name="PedidosSet" EntityType="Self.PedidosSet" />
+    <EntitySet Name="ProductosSet" EntityType="Self.ProductosSet" />
+    <AssociationSet Name="FK_ClientesPedidos" Association="Self.FK_ClientesPedidos">
+      <End Role="ClientesSet" EntitySet="ClientesSet" />
+      <End Role="PedidosSet" EntitySet="PedidosSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductosPedidos" Association="Self.FK_ProductosPedidos">
+      <End Role="ProductosSet" EntitySet="ProductosSet" />
+      <End Role="PedidosSet" EntitySet="PedidosSet" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(VientoNorteModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(VientoNorteModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

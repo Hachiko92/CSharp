@@ -15,8 +15,6 @@
         <MappingFragment StoreEntitySet="PedidosSet">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
-          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
-          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

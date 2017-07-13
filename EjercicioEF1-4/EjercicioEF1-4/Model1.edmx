@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="Model1TargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AlumnosSet" EntityType="Model1.Alumnos" />
+          <EntitySet Name="EmpresaSet" EntityType="Model1.Empresa" />
+          <EntitySet Name="CursosSet" EntityType="Model1.Cursos" />
+          <EntitySet Name="ProfesorSet" EntityType="Model1.Profesor" />
+          <EntitySet Name="AlumnoCursoSet" EntityType="Model1.AlumnoCurso" />
+          <EntitySet Name="CursosImpartidosSet" EntityType="Model1.CursosImpartidos" />
+          <AssociationSet Name="CursosCursosImpartidos" Association="Model1.CursosCursosImpartidos">
+            <End Role="Cursos" EntitySet="CursosSet" />
+            <End Role="CursosImpartidos" EntitySet="CursosImpartidosSet" />
+          </AssociationSet>
+          <AssociationSet Name="AlumnosAlumnoCurso" Association="Model1.AlumnosAlumnoCurso">
+            <End Role="Alumnos" EntitySet="AlumnosSet" />
+            <End Role="AlumnoCurso" EntitySet="AlumnoCursoSet" />
+          </AssociationSet>
+          <AssociationSet Name="CursosImpartidosAlumnoCurso" Association="Model1.CursosImpartidosAlumnoCurso">
+            <End Role="CursosImpartidos" EntitySet="CursosImpartidosSet" />
+            <End Role="AlumnoCurso" EntitySet="AlumnoCursoSet" />
+          </AssociationSet>
+          <AssociationSet Name="ProfesorCursosImpartidos" Association="Model1.ProfesorCursosImpartidos">
+            <End Role="Profesor" EntitySet="ProfesorSet" />
+            <End Role="CursosImpartidos" EntitySet="CursosImpartidosSet" />
+          </AssociationSet>
+          <AssociationSet Name="EmpresaAlumnos" Association="Model1.EmpresaAlumnos">
+            <End Role="Empresa" EntitySet="EmpresaSet" />
+            <End Role="Alumnos" EntitySet="AlumnosSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Alumnos">
+          <Key>
+            <PropertyRef Name="IDAlumno" />
+          </Key>
+          <Property Name="IDAlumno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DNI" Type="String" Nullable="false" />
+          <Property Name="Dirección" Type="String" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Teléfono" Type="String" Nullable="false" />
+          <Property Name="Edad" Type="Int32" Nullable="false" />
+          <Property Name="IDempresa" Type="Int32" Nullable="true" />
+          <NavigationProperty Name="AlumnoCurso" Relationship="Model1.AlumnosAlumnoCurso" FromRole="Alumnos" ToRole="AlumnoCurso" />
+          <NavigationProperty Name="Empresa" Relationship="Model1.EmpresaAlumnos" FromRole="Alumnos" ToRole="Empresa" />
+        </EntityType>
+        <EntityType Name="Empresa">
+          <Key>
+            <PropertyRef Name="IDempresa" />
+          </Key>
+          <Property Name="IDempresa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CIF" Type="String" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Télefono" Type="String" Nullable="false" />
+          <Property Name="Dirección" Type="String" Nullable="false" />
+          <NavigationProperty Name="Alumnos" Relationship="Model1.EmpresaAlumnos" FromRole="Empresa" ToRole="Alumnos" />
+        </EntityType>
+        <EntityType Name="Cursos">
+          <Key>
+            <PropertyRef Name="IDcurso" />
+          </Key>
+          <Property Name="IDcurso" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Programa" Type="String" Nullable="false" />
+          <Property Name="Horas" Type="Int32" Nullable="false" />
+          <Property Name="Titulo" Type="String" Nullable="false" />
+          <NavigationProperty Name="CursosImpartidos" Relationship="Model1.CursosCursosImpartidos" FromRole="Cursos" ToRole="CursosImpartidos" />
+        </EntityType>
+        <EntityType Name="Profesor">
+          <Key>
+            <PropertyRef Name="IDprofesor" />
+          </Key>
+          <Property Name="IDprofesor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DNI" Type="String" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Apellido" Type="String" Nullable="false" />
+          <Property Name="Dirección" Type="String" Nullable="false" />
+          <Property Name="Teléfono" Type="String" Nullable="false" />
+          <NavigationProperty Name="CursosImpartidos" Relationship="Model1.ProfesorCursosImpartidos" FromRole="Profesor" ToRole="CursosImpartidos" />
+        </EntityType>
+        <EntityType Name="AlumnoCurso">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDalumno" Type="String" Nullable="false" />
+          <Property Name="IDcursoImpartido" Type="String" Nullable="false" />
+          <Property Name="Nota" Type="Decimal" Nullable="false" />
+          <NavigationProperty Name="Alumnos" Relationship="Model1.AlumnosAlumnoCurso" FromRole="AlumnoCurso" ToRole="Alumnos" />
+          <NavigationProperty Name="CursosImpartidos" Relationship="Model1.CursosImpartidosAlumnoCurso" FromRole="AlumnoCurso" ToRole="CursosImpartidos" />
+        </EntityType>
+        <EntityType Name="CursosImpartidos">
+          <Key>
+            <PropertyRef Name="IDcursosImpartidos" />
+          </Key>
+          <Property Name="IDcursosImpartidos" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDprofesor" Type="String" Nullable="false" />
+          <Property Name="IDCurso" Type="String" Nullable="false" />
+          <Property Name="FxInicio" Type="String" Nullable="false" />
+          <Property Name="FxFin" Type="String" Nullable="false" />
+          <NavigationProperty Name="Cursos" Relationship="Model1.CursosCursosImpartidos" FromRole="CursosImpartidos" ToRole="Cursos" />
+          <NavigationProperty Name="AlumnoCurso" Relationship="Model1.CursosImpartidosAlumnoCurso" FromRole="CursosImpartidos" ToRole="AlumnoCurso" />
+          <NavigationProperty Name="Profesor" Relationship="Model1.ProfesorCursosImpartidos" FromRole="CursosImpartidos" ToRole="Profesor" />
+        </EntityType>
+        <Association Name="CursosCursosImpartidos">
+          <End Type="Model1.Cursos" Role="Cursos" Multiplicity="1" />
+          <End Type="Model1.CursosImpartidos" Role="CursosImpartidos" Multiplicity="*" />
+        </Association>
+        <Association Name="AlumnosAlumnoCurso">
+          <End Type="Model1.Alumnos" Role="Alumnos" Multiplicity="1" />
+          <End Type="Model1.AlumnoCurso" Role="AlumnoCurso" Multiplicity="*" />
+        </Association>
+        <Association Name="CursosImpartidosAlumnoCurso">
+          <End Type="Model1.CursosImpartidos" Role="CursosImpartidos" Multiplicity="1" />
+          <End Type="Model1.AlumnoCurso" Role="AlumnoCurso" Multiplicity="*" />
+        </Association>
+        <Association Name="ProfesorCursosImpartidos">
+          <End Type="Model1.Profesor" Role="Profesor" Multiplicity="0..1" />
+          <End Type="Model1.CursosImpartidos" Role="CursosImpartidos" Multiplicity="*" />
+        </Association>
+        <Association Name="EmpresaAlumnos">
+          <End Type="Model1.Empresa" Role="Empresa" Multiplicity="0..1" />
+          <End Type="Model1.Alumnos" Role="Alumnos" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="Model1" />
+        <Alias Key="Target" Value="Model1.Store" />
+        <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1TargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

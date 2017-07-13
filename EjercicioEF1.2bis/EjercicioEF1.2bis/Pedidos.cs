@@ -16,8 +16,6 @@ namespace EjercicioEF1._2bis
     {
         public int Id { get; set; }
         public int Cantidad { get; set; }
-        public int ClienteID { get; set; }
-        public int ProductoID { get; set; }
     
         public virtual Clientes Clientes { get; set; }
         public virtual Productos Productos { get; set; }

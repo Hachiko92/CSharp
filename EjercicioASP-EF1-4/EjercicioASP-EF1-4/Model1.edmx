@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AcademiaClasesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Alumno">
+          <Key>
+            <PropertyRef Name="idAlumno" />
+          </Key>
+          <Property Name="idAlumno" Type="int" Nullable="false" />
+          <Property Name="Dni" Type="nvarchar" MaxLength="50" />
+          <Property Name="Direccion" Type="nvarchar(max)" />
+          <Property Name="Nombre" Type="nvarchar(max)" />
+          <Property Name="Telefono" Type="nchar" MaxLength="10" />
+          <Property Name="Edad" Type="int" />
+          <Property Name="idEmpresa" Type="int" />
+        </EntityType>
+        <EntityType Name="Alumno_Curso">
+          <Key>
+            <PropertyRef Name="idAlumnoCurso" />
+          </Key>
+          <Property Name="idAlumnoCurso" Type="int" Nullable="false" />
+          <Property Name="idAlumno" Type="int" />
+          <Property Name="idCursoImpartido" Type="int" />
+          <Property Name="nota" Type="int" />
+        </EntityType>
+        <EntityType Name="Curso">
+          <Key>
+            <PropertyRef Name="idCurso" />
+          </Key>
+          <Property Name="idCurso" Type="int" Nullable="false" />
+          <Property Name="Programa" Type="nvarchar(max)" />
+          <Property Name="Horas" Type="int" />
+          <Property Name="Titulo" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Curso_Impartido">
+          <Key>
+            <PropertyRef Name="idCursoImpartido" />
+          </Key>
+          <Property Name="idCursoImpartido" Type="int" Nullable="false" />
+          <Property Name="Finicio" Type="date" />
+          <Property Name="Ffin" Type="date" />
+          <Property Name="idProfesor" Type="int" />
+          <Property Name="idCurso" Type="int" />
+        </EntityType>
+        <EntityType Name="Empresa">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+          </Key>
+          <Property Name="idEmpresa" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar(max)" />
+          <Property Name="Cif" Type="nchar" MaxLength="10" />
+          <Property Name="Direccion" Type="nvarchar(max)" />
+          <Property Name="Tf" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Profesor">
+          <Key>
+            <PropertyRef Name="idProfesor" />
+          </Key>
+          <Property Name="idProfesor" Type="int" Nullable="false" />
+          <Property Name="NombreApellidos" Type="nvarchar(max)" />
+          <Property Name="Direccion" Type="nvarchar(max)" />
+          <Property Name="Tf" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <Association Name="FK_Alumno_Curso_Alumno">
+          <End Role="Alumno" Type="Self.Alumno" Multiplicity="0..1" />
+          <End Role="Alumno_Curso" Type="Self.Alumno_Curso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Alumno">
+              <PropertyRef Name="idAlumno" />
+            </Principal>
+            <Dependent Role="Alumno_Curso">
+              <PropertyRef Name="idAlumno" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Alumno_Curso_Curso_Impartido">
+          <End Role="Curso_Impartido" Type="Self.Curso_Impartido" Multiplicity="0..1" />
+          <End Role="Alumno_Curso" Type="Self.Alumno_Curso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso_Impartido">
+              <PropertyRef Name="idCursoImpartido" />
+            </Principal>
+            <Dependent Role="Alumno_Curso">
+              <PropertyRef Name="idCursoImpartido" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Alumno_Empresa">
+          <End Role="Empresa" Type="Self.Empresa" Multiplicity="0..1" />
+          <End Role="Alumno" Type="Self.Alumno" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="Alumno">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Curso_Impartido_Curso">
+          <End Role="Curso" Type="Self.Curso" Multiplicity="0..1" />
+          <End Role="Curso_Impartido" Type="Self.Curso_Impartido" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso">
+              <PropertyRef Name="idCurso" />
+            </Principal>
+            <Dependent Role="Curso_Impartido">
+              <PropertyRef Name="idCurso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Curso_Impartido_Profesor">
+          <End Role="Profesor" Type="Self.Profesor" Multiplicity="0..1" />
+          <End Role="Curso_Impartido" Type="Self.Curso_Impartido" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profesor">
+              <PropertyRef Name="idProfesor" />
+            </Principal>
+            <Dependent Role="Curso_Impartido">
+              <PropertyRef Name="idProfesor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="AcademiaClasesModelStoreContainer">
+          <EntitySet Name="Alumno" EntityType="Self.Alumno" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Alumno_Curso" EntityType="Self.Alumno_Curso" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Curso" EntityType="Self.Curso" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Curso_Impartido" EntityType="Self.Curso_Impartido" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Empresa" EntityType="Self.Empresa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Profesor" EntityType="Self.Profesor" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Alumno_Curso_Alumno" Association="Self.FK_Alumno_Curso_Alumno">
+            <End Role="Alumno" EntitySet="Alumno" />
+            <End Role="Alumno_Curso" EntitySet="Alumno_Curso" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Alumno_Curso_Curso_Impartido" Association="Self.FK_Alumno_Curso_Curso_Impartido">
+            <End Role="Curso_Impartido" EntitySet="Curso_Impartido" />
+            <End Role="Alumno_Curso" EntitySet="Alumno_Curso" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Alumno_Empresa" Association="Self.FK_Alumno_Empresa">
+            <End Role="Empresa" EntitySet="Empresa" />
+            <End Role="Alumno" EntitySet="Alumno" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Curso_Impartido_Curso" Association="Self.FK_Curso_Impartido_Curso">
+            <End Role="Curso" EntitySet="Curso" />
+            <End Role="Curso_Impartido" EntitySet="Curso_Impartido" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Curso_Impartido_Profesor" Association="Self.FK_Curso_Impartido_Profesor">
+            <End Role="Profesor" EntitySet="Profesor" />
+            <End Role="Curso_Impartido" EntitySet="Curso_Impartido" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AcademiaClasesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Alumno">
+          <Key>
+            <PropertyRef Name="idAlumno" />
+          </Key>
+          <Property Name="idAlumno" Type="Int32" Nullable="false" />
+          <Property Name="Dni" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Edad" Type="Int32" />
+          <Property Name="idEmpresa" Type="Int32" />
+          <NavigationProperty Name="Alumno_Curso" Relationship="Self.FK_Alumno_Curso_Alumno" FromRole="Alumno" ToRole="Alumno_Curso" />
+          <NavigationProperty Name="Empresa" Relationship="Self.FK_Alumno_Empresa" FromRole="Alumno" ToRole="Empresa" />
+        </EntityType>
+        <EntityType Name="Alumno_Curso">
+          <Key>
+            <PropertyRef Name="idAlumnoCurso" />
+          </Key>
+          <Property Name="idAlumnoCurso" Type="Int32" Nullable="false" />
+          <Property Name="idAlumno" Type="Int32" />
+          <Property Name="idCursoImpartido" Type="Int32" />
+          <Property Name="nota" Type="Int32" />
+          <NavigationProperty Name="Alumno" Relationship="Self.FK_Alumno_Curso_Alumno" FromRole="Alumno_Curso" ToRole="Alumno" />
+          <NavigationProperty Name="Curso_Impartido" Relationship="Self.FK_Alumno_Curso_Curso_Impartido" FromRole="Alumno_Curso" ToRole="Curso_Impartido" />
+        </EntityType>
+        <EntityType Name="Curso">
+          <Key>
+            <PropertyRef Name="idCurso" />
+          </Key>
+          <Property Name="idCurso" Type="Int32" Nullable="false" />
+          <Property Name="Programa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Horas" Type="Int32" />
+          <Property Name="Titulo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Curso_Impartido" Relationship="Self.FK_Curso_Impartido_Curso" FromRole="Curso" ToRole="Curso_Impartido" />
+        </EntityType>
+        <EntityType Name="Curso_Impartido">
+          <Key>
+            <PropertyRef Name="idCursoImpartido" />
+          </Key>
+          <Property Name="idCursoImpartido" Type="Int32" Nullable="false" />
+          <Property Name="Finicio" Type="DateTime" Precision="0" />
+          <Property Name="Ffin" Type="DateTime" Precision="0" />
+          <Property Name="idProfesor" Type="Int32" />
+          <Property Name="idCurso" Type="Int32" />
+          <NavigationProperty Name="Alumno_Curso" Relationship="Self.FK_Alumno_Curso_Curso_Impartido" FromRole="Curso_Impartido" ToRole="Alumno_Curso" />
+          <NavigationProperty Name="Curso" Relationship="Self.FK_Curso_Impartido_Curso" FromRole="Curso_Impartido" ToRole="Curso" />
+          <NavigationProperty Name="Profesor" Relationship="Self.FK_Curso_Impartido_Profesor" FromRole="Curso_Impartido" ToRole="Profesor" />
+        </EntityType>
+        <EntityType Name="Empresa">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cif" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tf" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Alumno" Relationship="Self.FK_Alumno_Empresa" FromRole="Empresa" ToRole="Alumno" />
+        </EntityType>
+        <EntityType Name="Profesor">
+          <Key>
+            <PropertyRef Name="idProfesor" />
+          </Key>
+          <Property Name="idProfesor" Type="Int32" Nullable="false" />
+          <Property Name="NombreApellidos" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tf" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Curso_Impartido" Relationship="Self.FK_Curso_Impartido_Profesor" FromRole="Profesor" ToRole="Curso_Impartido" />
+        </EntityType>
+        <Association Name="FK_Alumno_Curso_Alumno">
+          <End Role="Alumno" Type="Self.Alumno" Multiplicity="0..1" />
+          <End Role="Alumno_Curso" Type="Self.Alumno_Curso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Alumno">
+              <PropertyRef Name="idAlumno" />
+            </Principal>
+            <Dependent Role="Alumno_Curso">
+              <PropertyRef Name="idAlumno" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Alumno_Empresa">
+          <End Role="Empresa" Type="Self.Empresa" Multiplicity="0..1" />
+          <End Role="Alumno" Type="Self.Alumno" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="Alumno">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Alumno_Curso_Curso_Impartido">
+          <End Role="Curso_Impartido" Type="Self.Curso_Impartido" Multiplicity="0..1" />
+          <End Role="Alumno_Curso" Type="Self.Alumno_Curso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso_Impartido">
+              <PropertyRef Name="idCursoImpartido" />
+            </Principal>
+            <Dependent Role="Alumno_Curso">
+              <PropertyRef Name="idCursoImpartido" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Curso_Impartido_Curso">
+          <End Role="Curso" Type="Self.Curso" Multiplicity="0..1" />
+          <End Role="Curso_Impartido" Type="Self.Curso_Impartido" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso">
+              <PropertyRef Name="idCurso" />
+            </Principal>
+            <Dependent Role="Curso_Impartido">
+              <PropertyRef Name="idCurso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Curso_Impartido_Profesor">
+          <End Role="Profesor" Type="Self.Profesor" Multiplicity="0..1" />
+          <End Role="Curso_Impartido" Type="Self.Curso_Impartido" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profesor">
+              <PropertyRef Name="idProfesor" />
+            </Principal>
+            <Dependent Role="Curso_Impartido">
+              <PropertyRef Name="idProfesor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AcademiaClasesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Alumno" EntityType="Self.Alumno" />
+          <EntitySet Name="Alumno_Curso" EntityType="Self.Alumno_Curso" />
+          <EntitySet Name="Curso" EntityType="Self.Curso" />
+          <EntitySet Name="Curso_Impartido" EntityType="Self.Curso_Impartido" />
+          <EntitySet Name="Empresa" EntityType="Self.Empresa" />
+          <EntitySet Name="Profesor" EntityType="Self.Profesor" />
+          <AssociationSet Name="FK_Alumno_Curso_Alumno" Association="Self.FK_Alumno_Curso_Alumno">
+            <End Role="Alumno" EntitySet="Alumno" />
+            <End Role="Alumno_Curso" EntitySet="Alumno_Curso" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Alumno_Empresa" Association="Self.FK_Alumno_Empresa">
+            <End Role="Empresa" EntitySet="Empresa" />
+            <End Role="Alumno" EntitySet="Alumno" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Alumno_Curso_Curso_Impartido" Association="Self.FK_Alumno_Curso_Curso_Impartido">
+            <End Role="Curso_Impartido" EntitySet="Curso_Impartido" />
+            <End Role="Alumno_Curso" EntitySet="Alumno_Curso" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Curso_Impartido_Curso" Association="Self.FK_Curso_Impartido_Curso">
+            <End Role="Curso" EntitySet="Curso" />
+            <End Role="Curso_Impartido" EntitySet="Curso_Impartido" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Curso_Impartido_Profesor" Association="Self.FK_Curso_Impartido_Profesor">
+            <End Role="Profesor" EntitySet="Profesor" />
+            <End Role="Curso_Impartido" EntitySet="Curso_Impartido" />
+          </AssociationSet>
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AcademiaClasesModelStoreContainer" CdmEntityContainer="AcademiaClasesEntities">
+          <EntitySetMapping Name="Alumno">
+            <EntityTypeMapping TypeName="AcademiaClasesModel.Alumno">
+              <MappingFragment StoreEntitySet="Alumno">
+                <ScalarProperty Name="idAlumno" ColumnName="idAlumno" />
+                <ScalarProperty Name="Dni" ColumnName="Dni" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Edad" ColumnName="Edad" />
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Alumno_Curso">
+            <EntityTypeMapping TypeName="AcademiaClasesModel.Alumno_Curso">
+              <MappingFragment StoreEntitySet="Alumno_Curso">
+                <ScalarProperty Name="idAlumnoCurso" ColumnName="idAlumnoCurso" />
+                <ScalarProperty Name="idAlumno" ColumnName="idAlumno" />
+                <ScalarProperty Name="idCursoImpartido" ColumnName="idCursoImpartido" />
+                <ScalarProperty Name="nota" ColumnName="nota" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Curso">
+            <EntityTypeMapping TypeName="AcademiaClasesModel.Curso">
+              <MappingFragment StoreEntitySet="Curso">
+                <ScalarProperty Name="idCurso" ColumnName="idCurso" />
+                <ScalarProperty Name="Programa" ColumnName="Programa" />
+                <ScalarProperty Name="Horas" ColumnName="Horas" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Curso_Impartido">
+            <EntityTypeMapping TypeName="AcademiaClasesModel.Curso_Impartido">
+              <MappingFragment StoreEntitySet="Curso_Impartido">
+                <ScalarProperty Name="idCursoImpartido" ColumnName="idCursoImpartido" />
+                <ScalarProperty Name="Finicio" ColumnName="Finicio" />
+                <ScalarProperty Name="Ffin" ColumnName="Ffin" />
+                <ScalarProperty Name="idProfesor" ColumnName="idProfesor" />
+                <ScalarProperty Name="idCurso" ColumnName="idCurso" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Empresa">
+            <EntityTypeMapping TypeName="AcademiaClasesModel.Empresa">
+              <MappingFragment StoreEntitySet="Empresa">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cif" ColumnName="Cif" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Tf" ColumnName="Tf" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Profesor">
+            <EntityTypeMapping TypeName="AcademiaClasesModel.Profesor">
+              <MappingFragment StoreEntitySet="Profesor">
+                <ScalarProperty Name="idProfesor" ColumnName="idProfesor" />
+                <ScalarProperty Name="NombreApellidos" ColumnName="NombreApellidos" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Tf" ColumnName="Tf" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="AcademiaClasesModel.Store.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="AcademiaClasesModel.Store.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="AcademiaClasesModel.Store.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="AcademiaClasesModel.Store.sp_helpdiagramdefinition" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="AcademiaClasesModel.Store.sp_helpdiagrams" />
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="AcademiaClasesModel.Store.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="AcademiaClasesModel.Store.sp_upgraddiagrams" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

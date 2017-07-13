@@ -32,8 +32,6 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Cantidad" Type="int" Nullable="false" />
-    <Property Name="ClienteID" Type="int" Nullable="false" />
-    <Property Name="ProductoID" Type="int" Nullable="false" />
     <Property Name="Clientes_Id" Type="int" Nullable="false" />
     <Property Name="Productos_Id" Type="int" Nullable="false" />
   </EntityType>
@@ -113,8 +111,6 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Cantidad" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Clientes" Relationship="Model1.ClientesPedidos" FromRole="Pedidos" ToRole="Clientes" />
-          <Property Name="ClienteID" Type="Int32" Nullable="false" />
-          <Property Name="ProductoID" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Productos" Relationship="Model1.ProductosPedidos" FromRole="Pedidos" ToRole="Productos" />
         </EntityType>
         <Association Name="ClientesPedidos">
@@ -145,8 +141,6 @@
         <MappingFragment StoreEntitySet="PedidosSet">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
-          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
-          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

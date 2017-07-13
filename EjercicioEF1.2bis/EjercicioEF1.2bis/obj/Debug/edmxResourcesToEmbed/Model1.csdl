@@ -39,8 +39,6 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Cantidad" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Clientes" Relationship="Model1.ClientesPedidos" FromRole="Pedidos" ToRole="Clientes" />
-    <Property Name="ClienteID" Type="Int32" Nullable="false" />
-    <Property Name="ProductoID" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Productos" Relationship="Model1.ProductosPedidos" FromRole="Pedidos" ToRole="Productos" />
   </EntityType>
   <Association Name="ClientesPedidos">
